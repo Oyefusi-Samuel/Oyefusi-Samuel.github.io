@@ -1,0 +1,115 @@
+/* Jon Barron-style stylesheet — adapted for Samuel Oluwakorede Oyefusi */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  margin: 0;
+}
+
+/* ── Custom elements ─────────────────────────────────────────── */
+name {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+heading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+subheading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ── Links ───────────────────────────────────────────────────── */
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+/* ── Tables ──────────────────────────────────────────────────── */
+table {
+  border-collapse: separate;
+  font-size: 14px;
+}
+
+td {
+  padding: 5px;
+}
+
+/* Paper row highlight (toggled via JS) */
+.highlight {
+  background-color: #ffffd0;
+}
+
+/* Profile photo hover zoom */
+.hoverZoomLink {
+  transition: transform 0.3s ease;
+}
+.hoverZoomLink:hover {
+  transform: scale(1.05);
+}
+
+/* Strong author highlight (Sam's name in paper lists) */
+strong {
+  font-weight: 700;
+}
+.myname {
+  font-weight: 700;
+  color: #333;
+}
+
+/* Tag badges */
+.tag {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1557b0;
+  border-radius: 4px;
+  font-size: 11px;
+  padding: 1px 6px;
+  margin-right: 2px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.tag.highlight-tag {
+  background: #fff3cd;
+  color: #856404;
+}
+
+/* Section divider */
+.section-divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 8px 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  td.bio-photo {
+    display: none;
+  }
+  td.bio-text {
+    width: 100% !important;
+  }
+  name {
+    font-size: 24px;
+  }
+}
