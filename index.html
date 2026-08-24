@@ -1,651 +1,736 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Samuel  Oyefusi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Oluwakorede Oyefusi</title>
+  <meta name="description" content="Samuel Oyefusi — PhD student at Oakland University. Research in robot perception, 3D scene graphs, HRI, and safe autonomy.">
   <meta name="author" content="Samuel Oluwakorede Oyefusi">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td>
 
-
-<!-- ============================================================
-     BIO
-============================================================ -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr style="padding:0px">
-  <td style="padding:2.5%;width:63%;vertical-align:middle">
-    <p style="text-align:center">
-      <name>Samuel  Oyefusi</name>
-    </p>
-    <p>
-      I am a graduate student in the
-      <a href="https://www.wpi.edu/academics/departments/robotics-engineering">Robotics Engineering</a>
-      program at <a href="https://www.wpi.edu/">Worcester Polytechnic Institute (WPI)</a>.
-      My research is in <strong>human-robot interaction</strong>,
-      
-    </p>
-    <p>
-      I am currently on a directed research project at the
-      <a href="https://robocare.lab">RoboCareLab</a> at WPI,
-      working on multimodal HRI data collection with Pepper robots and Intel RealSense sensors.
-          </p>
-    
-    <p style="text-align:center">
-      <a href="mailto:samueloyefusi@gmail.com">Email</a> &nbsp;/&nbsp;
-      <a href="data/SamuelOyefusi-CV.pdf">CV</a> &nbsp;/&nbsp;
-      <a href="https://scholar.google.com/citations?user=PLACEHOLDER">Google Scholar</a> &nbsp;/&nbsp;
-      <a href="https://orcid.org/0009-0009-0367-168X">ORCID</a> &nbsp;/&nbsp;
-      <a href="https://www.linkedin.com/in/samuel-oyefusi/">LinkedIn</a> &nbsp;/&nbsp;
-      <a href="https://github.com/Oyefusi-Samuel">Github</a> &nbsp;/&nbsp;
-      <a href="https://x.com/OyefusiSamuel">X (Twitter)</a>
-    </p>
-  </td>
-  <td style="padding:2.5%;width:40%;max-width:40%">
-    <a href="images/samuel_oyefusi.jpg">
-      <img style="width:100%;max-width:100%;border-radius:50%;" alt="profile photo" src="images/samuel_oyefusi.jpg">
-    </a>
-  </td>
-</tr>
-</tbody>
-</table>
-
-
-<!-- ============================================================
-     RESEARCH STATEMENT
-============================================================ -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td style="padding:20px;width:100%;vertical-align:middle">
-  <heading>Research</heading>
-  <p>
-    My research sits at the intersection of control theory, motion planning, and AI —
-    building robots that are provably safe and genuinely useful in human-centered environments.
-    I am particularly interested in applying Control Barrier Functions to healthcare robotics,
-    multimodal teleoperation,  pipelines for mobile manipulation.
-    Papers I am a primary contributor on are <span style="background-color:#ffffd0">highlighted</span>.
-  </p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<!-- ============================================================
-     PAPERS
-============================================================ -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-
-
-<!-- ── CBF-MPC-Transformer ──────────────────────────────────── -->
-<tr onmouseout="cbf_out()" onmouseover="cbf_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="cbf_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/cbf_demo.mp4" type="video/mp4">
-        <img src="images/cbf_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>Safety-Critical Robot Control with CBF-MPC-Transformer: A Unified Framework for Human-Safe Autonomous Systems</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>,
-    <a href="#">Peter Onu</a>,
-    Anup Pradhan
-    <br>
-    <em>8th International Conference on Industry of the Future and Smart Manufacturing</em>, 2024
-    <br>
-    <a href="#">arXiv (coming soon)</a>
-    <p>
-      A unified framework combining Control Barrier Functions, MPC, and a Transformer-based
-      human-intent predictor to enforce hard safety constraints during human-robot collaboration,
-      validated on hospital AMR scenarios.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── Generative AI in Education ──────────────────────────── -->
-<tr onmouseout="edu_out()" onmouseover="edu_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="edu_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/edu_demo.mp4" type="video/mp4">
-        <img src="images/edu_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>Generative AI in Engineering Education: Opportunities, Challenges, and Pedagogical Implications</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>International Conference on Smart Data and Intelligent Design (ICSDI)</em>, 2026 &nbsp; <strong>Springer Nature — Accepted</strong>
-    <p>
-      Examines LLMs and generative AI in African and global engineering curricula,
-      with a focus on AI fairness, pedagogical best practices, and equity in STEM access.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── Open-Source Elder Care Robots ───────────────────────── -->
-<tr onmouseout="elder_out()" onmouseover="elder_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="elder_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/elder_demo.mp4" type="video/mp4">
-        <img src="images/elder_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>Open-Source Robotic Systems for Elder Care: Design Principles, Safety Considerations, and Deployment Pathways</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>Open Healthware Conference</em>, San Francisco, 2026
-    <p>
-      Proposes an open-source framework for elder care robots covering hardware selection,
-      CBF-based safety verification, and human-in-the-loop supervision strategies.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── Multimodal Teleoperation ─────────────────────────────── -->
-<tr onmouseout="mm_out()" onmouseover="mm_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="mm_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/teleop_demo.mp4" type="video/mp4">
-        <img src="images/teleop_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>Multimodal Teleoperation Interfaces for Dexterous Robot Manipulation: Design, Evaluation, and Operator Workload</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>Under review</em>
-    <p>
-      Designs and evaluates a multimodal teleoperation interface combining haptic feedback,
-      gaze tracking, and voice commands. Measures NASA-TLX workload across three interface
-      modalities in a simulated surgical-support scenario.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── VCPF HRI ─────────────────────────────────────────────── -->
-<tr onmouseout="vcpf_out()" onmouseover="vcpf_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="vcpf_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/vcpf_demo.mp4" type="video/mp4">
-        <img src="images/vcpf_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>A Value-Centered Progression Framework for Consumer Human-Robot Interaction</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>,
-    <a href="#">Peter Onu</a>
-    <br>
-    <em>Under review</em>
-    <p>
-      Introduces VCPF, a staged framework mapping user values (safety, trust, utility) to
-      robot capability levels, with design guidelines for consumer HRI products.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── Trustworthy HRI Review ──────────────────────────────── -->
-<tr onmouseout="trust_out()" onmouseover="trust_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="trust_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/trust_demo.mp4" type="video/mp4">
-        <img src="images/trust_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>Towards Trustworthy Human-Robot Interaction: A Systematic Review of Safety, Transparency, and Accountability</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>,
-    <a href="#">Peter Onu</a>
-    <br>
-    <em>Under review</em>
-    <p>
-      Synthesizes 80+ papers on human-robot trust across industrial, healthcare, and domestic
-      settings, proposing a taxonomy of trust-building mechanisms and gaps for formal verification.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── ROS 2 Adoption Survey ───────────────────────────────── -->
-<tr onmouseout="ros_out()" onmouseover="ros_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="ros_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/ros_demo.mp4" type="video/mp4">
-        <img src="images/ros_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>Adoption Trends of ROS 2 in Robotics Research: A Systematic Survey</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>,
-    <a href="#">Peter Onu</a>
-    <br>
-    <em>Under review</em>
-    <p>
-      A systematic survey of the community migration from ROS 1 to ROS 2, covering middleware,
-      tooling, Gazebo Harmonic integration, and adoption patterns across mobile manipulation,
-      aerial robotics, and HRI subfields.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── HRI Publication Trends ──────────────────────────────── -->
-<tr onmouseout="hri_out()" onmouseover="hri_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="hri_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/hri_trends_demo.mp4" type="video/mp4">
-        <img src="images/hri_trends_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>Mapping the Landscape of Human-Robot Interaction Research: A Bibliometric and Thematic Analysis</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>,
-    <a href="#">Peter Onu</a>
-    <br>
-    <em>Under review</em>
-    <p>
-      Bibliometric analysis of 10+ years of HRI publications, identifying emerging research
-      clusters, dominant methodologies, and underrepresented application domains including
-      African and Global South contexts.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── ICS/SCADA Cybersecurity ─────────────────────────────── -->
-<tr onmouseout="ics_out()" onmouseover="ics_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="ics_image">
-      <img src="images/ics_thumb.gif" style="width:100%">
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>ICS/SCADA Cybersecurity in the Age of Industry 4.0: Threats, Defenses, and Future Directions</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>Under review</em>
-    <p>
-      Surveys attack vectors and defense strategies for industrial control systems
-      in Industry 4.0 environments, with coverage of OT/IT convergence and zero-trust
-      architectures for smart manufacturing.
-    </p>
-  </td>
-</tr>
-
-
-</tbody>
-</table>
-
-
-<!-- ============================================================
-     PROJECTS
-============================================================ -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td style="padding:20px;width:100%;vertical-align:middle">
-  <heading>Projects</heading>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-
-
-<!-- ── Jackal + AR4 ────────────────────────────────────────── -->
-<tr onmouseout="jackal_out()" onmouseover="jackal_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="jackal_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/jackal_demo.mp4" type="video/mp4">
-        <img src="images/jackal_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="https://github.com/Oyefusi-Samuel">
-      <papertitle>Jackal J100 + AR4 Arm: Full-Stack ROS 2 Jazzy / Gazebo Harmonic Simulation</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>WPI Robotics Engineering, 2025–2026 &nbsp;|&nbsp; ROS 2 Jazzy · Gazebo Harmonic · MoveIt 2 · Nav2</em>
-    <br>
-    <a href="https://github.com/Oyefusi-Samuel">code</a>
-    <p>
-      A complete simulation stack integrating a Clearpath Jackal J100 mobile base with an AR4
-      robotic arm. Features YDLiDAR SLAM, Nav2 A* navigation, MoveIt2 motion planning,
-      and coordinated mobile manipulation tasks.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── CBF Healthcare AMR ───────────────────────────────────── -->
-<tr onmouseout="cbfhw_out()" onmouseover="cbfhw_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="cbfhw_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/cbfhw_demo.mp4" type="video/mp4">
-        <img src="images/cbfhw_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>CBF Safety Simulation for Hospital Autonomous Mobile Robots</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>WPI RBE 526 — Human-Robot Interaction, 2025 &nbsp;|&nbsp; MATLAB</em>
-    <p>
-      MATLAB simulation demonstrating CBF-based safety guarantees for AMRs in hospital corridors.
-      Includes forward invariance proofs and Lyapunov stability analysis across surgical,
-      stroke rehabilitation, and ICU telepresence scenarios.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── PyBullet HRI ─────────────────────────────────────────── -->
-<tr onmouseout="pybullet_out()" onmouseover="pybullet_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="pybullet_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/pybullet_demo.mp4" type="video/mp4">
-        <img src="images/pybullet_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>Shared and Supervisory Control HRI in PyBullet: Tower of Hanoi and N-Queens</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>WPI RBE 526 — Human-Robot Interaction, 2025 &nbsp;|&nbsp; Python · PyBullet</em>
-    <p>
-      Physics simulation exploring supervisory and shared control paradigms on Tower of Hanoi
-      and N-Queens tasks. Quantifies task completion rate, human intervention frequency,
-      and cognitive load across control modes.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── RRT Motion Planner ───────────────────────────────────── -->
-<tr onmouseout="rrt_out()" onmouseover="rrt_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="rrt_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/rrt_demo.mp4" type="video/mp4">
-        <img src="images/rrt_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>RRT Motion Planner for Transmission Case Extraction with Live GUI Visualization</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>WPI RBE 550 — Motion Planning, 2026 &nbsp;|&nbsp; Python · Matplotlib</em>
-    <p>
-      RRT planner for a constrained robot arm performing automotive transmission case extraction,
-      with a live animated GUI showing tree expansion, path extraction, and obstacle avoidance.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── VALET / WILDFIRE ─────────────────────────────────────── -->
-<tr onmouseout="motion_out()" onmouseover="motion_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="motion_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/valet_demo.mp4" type="video/mp4">
-        <img src="images/valet_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>VALET: Hybrid A* Parking with SAT Collision Detection &amp; WILDFIRE: Multi-Agent A* + PRM</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>WPI RBE 550 — Motion Planning, 2026 &nbsp;|&nbsp; Python</em>
-    <p>
-      VALET implements Hybrid A* for kinematically-feasible parking with SAT-based collision
-      detection. WILDFIRE solves coordinated multi-agent navigation using A* with PRM roadmaps
-      and dynamic priority scheduling.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── BIR ROS 2 Workshop ───────────────────────────────────── -->
-<tr onmouseout="bir_out()" onmouseover="bir_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="bir_image">
-      <img src="images/bir_thumb.gif" style="width:100%">
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="https://github.com/Oyefusi-Samuel/BIR-Intro-to-ROS2">
-      <papertitle>Introduction to ROS 2 — Black in Robotics Summer Workshop</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>Black in Robotics, Summer 2025</em>
-    <br>
-    <a href="https://github.com/Oyefusi-Samuel/BIR-Intro-to-ROS2">code</a> / &#9733; 19 stars
-    <p>
-      Open-source workshop materials for the Black in Robotics Introduction to ROS 2 program,
-      covering nodes, topics, services, launch files, and Gazebo simulation from scratch.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── ZED Cleaning Robot ───────────────────────────────────── -->
-<tr onmouseout="zed_out()" onmouseover="zed_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="zed_image">
-      <video width=100% muted autoplay loop>
-        <source src="images/zed_demo.mp4" type="video/mp4">
-        <img src="images/zed_thumb.gif" style="width:100%">
-      </video>
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="https://github.com/Oyefusi-Samuel/ZED-mobile-cleaning-simulated-robot.">
-      <papertitle>ZED Mobile Cleaning Robot — Autonomous Navigation Simulation</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <a href="https://github.com/Oyefusi-Samuel/ZED-mobile-cleaning-simulated-robot.">code</a> / &#9733; 8 stars
-    <p>
-      Autonomous mobile cleaning robot simulation featuring coverage-path planning,
-      obstacle avoidance, and ZED stereo camera-based depth sensing.
-    </p>
-  </td>
-</tr>
-
-
-<!-- ── ASPROB ───────────────────────────────────────────────── -->
-<tr onmouseout="asprob_out()" onmouseover="asprob_over()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one" id="asprob_image">
-      <img src="images/asprob_thumb.gif" style="width:100%">
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="#">
-      <papertitle>ASPROB: Autonomous Solar-Powered 3D Printing Robot for Martian Surface Fabrication</papertitle>
-    </a>
-    <br>
-    <strong>Samuel Oluwakorede Oyefusi</strong>
-    <br>
-    <em>Concept design &amp; simulation architecture, 2023–present</em>
-    <p>
-      Architectural design for an autonomous solar-powered robot capable of in-situ 3D printing
-      of habitat structures on Mars using regolith. Covers mission architecture, power budgeting,
-      and autonomy stack design.
-    </p>
-  </td>
-</tr>
-
-
-</tbody>
-</table>
-
-
-<!-- ============================================================
-     MISC
-============================================================ -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td style="padding:20px;width:100%;vertical-align:middle">
-  <heading>Misc</heading>
-  <ul style="padding-left:20px;margin-top:8px">
-    <li>
-      <strong>Academic Service:</strong>
-      Instructor, <a href="https://github.com/Oyefusi-Samuel/BIR-Intro-to-ROS2">Black in Robotics ROS 2 Workshop</a>, 2025.
-      Guest lecturer, CV &amp; cold-email workshop, Pan-Atlantic University, 2024.
-      Reviewer: robotics and AI venues.
-    </li>
-    <li>
-      <strong>Outreach:</strong>
-      Global Ambassador, <a href="https://theirworld.org/">Theirworld</a> (SDG 4 &amp; 7).
-      Co-founder, Ridebuddy (sustainable urban mobility, Nigeria).
-      President, Living Green Club, Pan-Atlantic University — smart irrigation &amp; flood prevention.
-    </li>
-    <li>
-      <strong>Credentials:</strong> Professional Engineer (P.E.) &nbsp;|&nbsp; Project Management Professional (PMP®)
-    </li>
-    <li>
-      <strong>ORCID:</strong> <a href="https://orcid.org/0009-0009-0367-168X">0009-0009-0367-168X</a>
-    </li>
+<!-- ══════════════════════════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════════════════════════ -->
+<nav id="navbar">
+  <span class="nav-name">Samuel Oyefusi</span>
+  <ul>
+    <li><a href="#research" class="nav-link">Research</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#publications" class="nav-link">Publications</a></li>
+    <li><a href="#activities" class="nav-link">Activities</a></li>
   </ul>
-</td>
-</tr>
-</tbody>
-</table>
+  <div class="nav-right">
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  </div>
+</nav>
 
 
-<!-- ============================================================
+<!-- ══════════════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════════════ -->
+<section id="hero">
+  <!-- Replace div below with: <img src="images/samuel_oyefusi.jpg" class="hero-photo" alt="Samuel Oyefusi"> -->
+  <div class="hero-photo-placeholder">SO</div>
+
+  <div class="hero-text">
+    <h1>Samuel Oluwakorede Oyefusi.</h1>
+    <p class="hero-tagline"><span id="typewriter-text"></span><span class="cursor"></span></p>
+
+    <p class="hero-bio">
+      I'm a PhD student in Electrical and Computer Engineering at
+      <strong><a href="https://www.oakland.edu/">Oakland University</a></strong>, Michigan,
+      advised by <strong><a href="#">Prof. Jared Strader</a></strong>.
+      My research spans <strong>robot perception</strong>, <strong>3D scene graph generation</strong>,
+      and <strong>human-robot interaction</strong>.
+      I hold an M.S. in Robotics Engineering (GPA 4.0/4.0) from
+      <strong><a href="https://www.wpi.edu/">WPI</a></strong>
+      and a First Class B.Eng. from
+      <strong><a href="https://pau.edu.ng/">Pan-Atlantic University</a></strong>, Lagos.
+      I hold P.E. and PMP&reg; certifications.
+    </p>
+
+    <p class="hero-bio">
+      Beyond research, I co-founded <strong>Ridebuddy</strong>,
+      serve as a Global Ambassador of <strong><a href="https://theirworld.org/">Theirworld</a></strong>
+      (SDG 4 &amp; 7), and previously led the Living Green Club at PAU,
+      deploying smart irrigation systems across Lagos communities.
+    </p>
+
+    <div class="hero-links">
+      <a href="mailto:samueloyefusi@gmail.com">✉ Email</a>
+      <a href="data/SamuelOyefusi-CV.pdf" target="_blank">📄 CV</a>
+      <a href="https://scholar.google.com/citations?user=PLACEHOLDER" target="_blank">🎓 Scholar</a>
+      <a href="https://orcid.org/0009-0009-0367-168X" target="_blank">🔗 ORCID</a>
+      <a href="https://www.linkedin.com/in/samuel-oyefusi/" target="_blank">💼 LinkedIn</a>
+      <a href="https://github.com/Oyefusi-Samuel" target="_blank">🐙 GitHub</a>
+      <a href="https://x.com/OyefusiSamuel" target="_blank">𝕏 Twitter</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Stats bar -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat"><div class="stat-num">11</div><div class="stat-label">Publications</div></div>
+    <div class="stat"><div class="stat-num">6</div><div class="stat-label">Reviewer Roles</div></div>
+    <div class="stat"><div class="stat-num">8</div><div class="stat-label">Projects</div></div>
+    <div class="stat"><div class="stat-num">3</div><div class="stat-label">Internships</div></div>
+    <div class="stat"><div class="stat-num">4.0</div><div class="stat-label">MS GPA</div></div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     RESEARCH
+══════════════════════════════════════════════════════════════ -->
+<section id="research" class="section">
+  <div class="section-header">
+    <h2>Research</h2>
+    <p class="section-sub">Lab research in robot perception, safety-critical control, and HRI at Oakland University &amp; WPI</p>
+  </div>
+
+  <!-- Research 1 -->
+  <div class="research-item reveal">
+    <div class="research-media">
+      <!-- Replace with: <video src="videos/scenegraph_demo.mp4" muted autoplay loop></video> -->
+      <div class="media-placeholder" style="background:linear-gradient(135deg,#1772d0,#0d3b7a);">🗺️</div>
+    </div>
+    <div class="research-content">
+      <h3>3D Scene Graph Generation for Autonomous Robots using Hydra + Perception Encoder</h3>
+      <div class="research-venue">Oakland University · Spatial AI &amp; Robotics Lab · 2026–present</div>
+      <p>Building on the Hydra scene graph pipeline, this work replaces CLIP with Meta's Perception Encoder
+      to generate richer semantic embeddings for place nodes in 3D spatial graphs.
+      The goal is to enable robots to reason about environments at multiple semantic levels —
+      room, object, and surface — for long-horizon planning and human-intelligible scene description.
+      Deployed in a Docker-based pipeline on Ubuntu 24.04 with RTX 3080.</p>
+      <div class="research-links">
+        <a href="#">project page →</a>
+        <a href="#">arXiv (coming soon)</a>
+      </div>
+      <div class="tags">
+        <span class="tag">Scene Graphs</span>
+        <span class="tag">Hydra</span>
+        <span class="tag">Perception Encoder</span>
+        <span class="tag">Docker</span>
+        <span class="tag">ROS 2</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Research 2 -->
+  <div class="research-item reveal">
+    <div class="research-media">
+      <!-- Replace with: <video src="videos/pepper_hri.mp4" muted autoplay loop></video> -->
+      <div class="media-placeholder" style="background:linear-gradient(135deg,#880e4f,#c62828);">🤖</div>
+    </div>
+    <div class="research-content">
+      <h3>Multimodal HRI Data Collection with Pepper Robot and Intel RealSense D435</h3>
+      <div class="research-venue">WPI RoboCareLab · Prof. Zachary Zhao · 2025–2026</div>
+      <p>Designed and deployed a multimodal HRI data collection system on the Pepper social robot,
+      integrating Intel RealSense D435 depth sensing, tablet-based interaction interfaces, and
+      audio pipelines. Ran live user experiments, and debugged the bridge server and sensor stack.
+      Data feeds downstream HRI models for healthcare robot interaction design.</p>
+      <div class="research-links">
+        <a href="#">project page →</a>
+        <a href="https://github.com/Oyefusi-Samuel">code</a>
+      </div>
+      <div class="tags">
+        <span class="tag">HRI</span>
+        <span class="tag">Pepper Robot</span>
+        <span class="tag">RealSense D435</span>
+        <span class="tag">Data Collection</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Research 3 -->
+  <div class="research-item reveal">
+    <div class="research-media">
+      <div class="media-placeholder" style="background:linear-gradient(135deg,#1b5e20,#2e7d32);">🛡️</div>
+    </div>
+    <div class="research-content">
+      <h3>Safety-Critical Control with CBF-MPC-Transformer for Healthcare Robots</h3>
+      <div class="research-venue">WPI · 8th International Conference on Industry of the Future &amp; Smart Manufacturing · 2024</div>
+      <p>A unified framework combining Control Barrier Functions, Model Predictive Control, and a
+      Transformer-based human-intent predictor to enforce hard safety constraints during
+      human-robot collaboration. Validated on hospital AMR scenarios across surgical,
+      stroke rehabilitation, and ICU telepresence settings with formal forward-invariance proofs.</p>
+      <div class="research-links">
+        <a href="#">arXiv (coming soon)</a>
+      </div>
+      <div class="tags">
+        <span class="tag">CBF</span>
+        <span class="tag">MPC</span>
+        <span class="tag">Transformer</span>
+        <span class="tag">Healthcare Robotics</span>
+        <span class="tag">MATLAB</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     PROJECTS
+══════════════════════════════════════════════════════════════ -->
+<section id="projects" class="section">
+  <div class="section-header">
+    <h2>Selected Projects</h2>
+    <p class="section-sub">Graduate coursework &amp; independent projects in robotics, motion planning, and AI</p>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="ros2">ROS 2</button>
+    <button class="filter-btn" data-filter="planning">Motion Planning</button>
+    <button class="filter-btn" data-filter="hri">HRI</button>
+    <button class="filter-btn" data-filter="ml">ML / AI</button>
+    <button class="filter-btn" data-filter="control">Control</button>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- Card 1: Jackal + AR4 -->
+    <div class="project-card reveal" data-tags="ros2">
+      <div class="project-thumb">
+        <!-- <video src="videos/jackal_demo.mp4" muted autoplay loop></video> -->
+        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#1565c0,#0d47a1);">🦾</div>
+      </div>
+      <div class="project-body">
+        <h3>Jackal J100 + AR4 Arm — Mobile Manipulation</h3>
+        <div class="project-meta">ROS 2 Jazzy · Gazebo Harmonic · MoveIt 2 · Nav2 · 2025–2026</div>
+        <p>Full-stack ROS 2 simulation: YDLiDAR SLAM, Nav2 A* navigation, MoveIt2 motion planning, and coordinated mobile manipulation.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">ROS 2</span><span class="tag">SLAM</span></div>
+          <a href="https://github.com/Oyefusi-Samuel" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: VALET + WILDFIRE -->
+    <div class="project-card reveal" data-tags="planning">
+      <div class="project-thumb">
+        <!-- <img src="images/valet_thumb.gif"> -->
+        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#bf360c,#e64a19);">🅿️</div>
+      </div>
+      <div class="project-body">
+        <h3>VALET: Hybrid A* Parking + WILDFIRE: Multi-Agent A*</h3>
+        <div class="project-meta">Python · RBE 550 Motion Planning · WPI · 2026</div>
+        <p>VALET: Hybrid A* with SAT collision detection for kinematically-feasible parking. WILDFIRE: multi-agent PRM + A* with dynamic priority scheduling.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Hybrid A*</span><span class="tag">PRM</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: RRT -->
+    <div class="project-card reveal" data-tags="planning">
+      <div class="project-thumb">
+        <!-- <video src="videos/rrt_demo.mp4" muted autoplay loop></video> -->
+        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#827717,#f9a825);">🌲</div>
+      </div>
+      <div class="project-body">
+        <h3>RRT Motion Planner — Transmission Case Extraction</h3>
+        <div class="project-meta">Python · Matplotlib GUI · RBE 550 · WPI · 2026</div>
+        <p>RRT planner for constrained robot arm manipulation with live animated GUI showing tree expansion and path extraction in joint space.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">RRT</span><span class="tag">Joint Space</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4: CBF Hospital AMR -->
+    <div class="project-card reveal" data-tags="control hri">
+      <div class="project-thumb">
+        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#4a148c,#7b1fa2);">🏥</div>
+      </div>
+      <div class="project-body">
+        <h3>CBF Safety Simulation for Hospital AMRs</h3>
+        <div class="project-meta">MATLAB · RBE 526 HRI · WPI · 2025</div>
+        <p>CBF-based safety guarantees for hospital-corridor AMRs with Lyapunov stability proofs across surgical, rehab, and ICU scenarios.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">CBF</span><span class="tag">Lyapunov</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5: PyBullet HRI -->
+    <div class="project-card reveal" data-tags="hri">
+      <div class="project-thumb">
+        <!-- <video src="videos/pybullet_demo.mp4" muted autoplay loop></video> -->
+        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#004d40,#00796b);">🧠</div>
+      </div>
+      <div class="project-body">
+        <h3>Shared &amp; Supervisory Control HRI in PyBullet</h3>
+        <div class="project-meta">Python · PyBullet · RBE 526 · WPI · 2025</div>
+        <p>Compared supervisory vs. shared control on Tower of Hanoi and N-Queens tasks. Measured NASA-TLX cognitive load and task completion rates.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">HRI</span><span class="tag">NASA-TLX</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6: BIR ROS 2 Workshop -->
+    <div class="project-card reveal" data-tags="ros2">
+      <div class="project-thumb">
+        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#1a237e,#283593);">🌍</div>
+      </div>
+      <div class="project-body">
+        <h3>Intro to ROS 2 — Black in Robotics Workshop</h3>
+        <div class="project-meta">ROS 2 · Black in Robotics · Summer 2025 · ⭐ 19 stars</div>
+        <p>Open-source workshop for Black in Robotics participants across Africa and the diaspora. Nodes, topics, services, launch files, Gazebo from scratch.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">ROS 2</span><span class="tag">Education</span></div>
+          <a href="https://github.com/Oyefusi-Samuel/BIR-Intro-to-ROS2" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 7: ZED Cleaning Robot -->
+    <div class="project-card reveal" data-tags="ros2">
+      <div class="project-thumb">
+        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#212121,#546e7a);">🤖</div>
+      </div>
+      <div class="project-body">
+        <h3>ZED Mobile Cleaning Robot — Autonomous Navigation</h3>
+        <div class="project-meta">ROS 2 · ZED Camera · ⭐ 8 stars</div>
+        <p>Autonomous mobile cleaning robot with coverage-path planning, obstacle avoidance, and ZED stereo camera-based depth sensing.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Nav</span><span class="tag">Coverage</span></div>
+          <a href="https://github.com/Oyefusi-Samuel/ZED-mobile-cleaning-simulated-robot." class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 8: Nigerian Food / AI Bias -->
+    <div class="project-card reveal" data-tags="ml">
+      <div class="project-thumb">
+        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#1b5e20,#388e3c);">🍲</div>
+      </div>
+      <div class="project-body">
+        <h3>AI Bias — Nigerian Food Classification Dataset</h3>
+        <div class="project-meta">PyTorch · Python · ICAIDE 2025</div>
+        <p>Dataset and fine-tuning pipeline showing standard vision models severely underperform on West African food imagery. Published at ICAIDE 2025, Guangzhou.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">AI Fairness</span><span class="tag">CV</span></div>
+          <a href="https://github.com/Oyefusi-Samuel/nigerian-food-classification" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /projects-grid -->
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     EXPERIENCE
+══════════════════════════════════════════════════════════════ -->
+<section id="experience" class="section">
+  <div class="section-header">
+    <h2>Experience</h2>
+  </div>
+
+  <div class="exp-item reveal">
+    <div class="exp-logo">🎓</div>
+    <div class="exp-content">
+      <div class="exp-header">
+        <span class="exp-role">PhD Researcher</span>
+        <span class="exp-date">Sept 2026 – Present</span>
+      </div>
+      <div class="exp-org">Spatial AI &amp; Robotics Lab · Oakland University, Michigan</div>
+      <div class="exp-desc">Advised by Prof. Jared Strader. Research in 3D scene graph generation and robot perception for autonomous systems. Building Hydra + Perception Encoder pipeline on Docker/Ubuntu 24.04.</div>
+    </div>
+  </div>
+
+  <div class="exp-item reveal">
+    <div class="exp-logo">🤖</div>
+    <div class="exp-content">
+      <div class="exp-header">
+        <span class="exp-role">Research Assistant</span>
+        <span class="exp-date">Jan 2025 – Dec 2026</span>
+      </div>
+      <div class="exp-org">RoboCareLab · Worcester Polytechnic Institute, MA</div>
+      <div class="exp-desc">HRI experiments with Pepper robot and Intel RealSense D435. Debugged bridge server, tablet interface, and audio pipeline. Collected multimodal HRI datasets for healthcare robotics research.</div>
+    </div>
+  </div>
+
+  <div class="exp-item reveal">
+    <div class="exp-logo">⚙️</div>
+    <div class="exp-content">
+      <div class="exp-header">
+        <span class="exp-role">Project Engineering Intern</span>
+        <span class="exp-date">Aug – Dec 2025</span>
+      </div>
+      <div class="exp-org">TechnipFMC</div>
+      <div class="exp-desc">
+        <ul>
+          <li>Assisted in developing project plans, schedules, and resource allocations.</li>
+          <li>Created technical documentation including drawings, specifications, and progress reports.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-item reveal">
+    <div class="exp-logo">🦾</div>
+    <div class="exp-content">
+      <div class="exp-header">
+        <span class="exp-role">Robotics Engineering Intern</span>
+        <span class="exp-date">May – Jul 2024</span>
+      </div>
+      <div class="exp-org">Orangewood · Remote</div>
+      <div class="exp-desc">
+        <ul>
+          <li>Developed advanced manipulation applications enhancing robotic dexterity in industrial environments.</li>
+          <li>Contributed to Robo-GPT; integrated MoveIt, ROS, and Gazebo for cobot performance evaluation.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-item reveal">
+    <div class="exp-logo">🔧</div>
+    <div class="exp-content">
+      <div class="exp-header">
+        <span class="exp-role">Intern, Pipeline &amp; Gas Supply</span>
+        <span class="exp-date">Jul – Sept 2024</span>
+      </div>
+      <div class="exp-org">Nigeria LNG Limited · Nigeria</div>
+      <div class="exp-desc">
+        <ul>
+          <li>Analysed 25 years of pigging operations data, uncovering wear and corrosion trends.</li>
+          <li>Developed an automated data logging system improving real-time pipeline monitoring.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     PUBLICATIONS
+══════════════════════════════════════════════════════════════ -->
+<section id="publications" class="section">
+  <div class="section-header">
+    <h2>Publications</h2>
+    <p class="section-sub"><strong>Samuel Oyefusi</strong> bolded in all author lists</p>
+  </div>
+
+  <div class="pub-list">
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[1]</div>
+      <div class="pub-content">
+        <div class="pub-title">Development of a Cost-Effective Autonomous Ultraviolet-C Disinfection and Vacuum-Cleaning Robot</div>
+        <div class="pub-authors"><strong>Samuel Oyefusi</strong>, Darlington Agholor, Lawrence Ukpoju, Peter Onu</div>
+        <div class="pub-venue">ICARA, 2026 <span class="pub-badge pub">Published</span></div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[2]</div>
+      <div class="pub-content">
+        <div class="pub-title">Mortality of Distributed Understanding</div>
+        <div class="pub-authors">Alexander Ozoani, <strong>Samuel Oyefusi</strong></div>
+        <div class="pub-venue">Human Arenas, Springer Nature, 2026, pp. 1–7 <span class="pub-badge springer">Springer</span></div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[3]</div>
+      <div class="pub-content">
+        <div class="pub-title">Application of Vector Integral Theorems in Engineering</div>
+        <div class="pub-authors"><strong>Samuel Oyefusi</strong>, Raehan Kareem, Onoriode Avebenake</div>
+        <div class="pub-venue">Vol. 1 No. 2, 2026</div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[4]</div>
+      <div class="pub-content">
+        <div class="pub-title">Utilization of Machine Learning Techniques in Predicting Burnout in Organizations</div>
+        <div class="pub-authors">Ifeoluwa Oduwaiye, <strong>Samuel Oyefusi</strong>, Ayoola Okunlola, Melody Alabi</div>
+        <div class="pub-venue">International Journal of Computer Applications, Vol. 187, No. 113, 2026</div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[5]</div>
+      <div class="pub-content">
+        <div class="pub-title">The Potential of Generative Artificial Intelligence to Improve Learning in Schools</div>
+        <div class="pub-authors"><strong>Samuel Oyefusi</strong>, Oluwarantimi Bukola, Peter Onu</div>
+        <div class="pub-venue">3rd Int'l Conference on Sustainability: Developments &amp; Innovations, Springer Nature <span class="pub-badge springer">Springer</span> <span class="pub-badge review">Under Publishing</span></div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[6]</div>
+      <div class="pub-content">
+        <div class="pub-title">Designing Resilient AI-Powered Digital Assistants for Industrial Applications: A Mini Review</div>
+        <div class="pub-authors">Peter Onu, Anup Pradhan, Nelson Madonsela, <strong>Samuel Oyefusi</strong></div>
+        <div class="pub-venue">IEEE IEEM, 2025 <span class="pub-badge ieee">IEEE</span></div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[7]</div>
+      <div class="pub-content">
+        <div class="pub-title">Addressing Artificial Intelligence Bias through Inclusivity: A Case Study with Nigerian Food Images</div>
+        <div class="pub-authors">Tito Osadebey, <strong>Samuel Oyefusi</strong>, Micah Udeogu</div>
+        <div class="pub-venue">ICAIDE, Guangzhou, China, 2025, pp. 469–473 <span class="pub-badge pub">Published</span></div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[8]</div>
+      <div class="pub-content">
+        <div class="pub-title">Virtual Reality Training System for Enhancing Skill Transferability in Volleyball Players</div>
+        <div class="pub-authors">Chima Okwuokei, Desmond Moru, Clifford Uroh, <strong>Samuel Oyefusi</strong></div>
+        <div class="pub-venue">Journal of Virtual Worlds, MDPI <span class="pub-badge review">In Review</span></div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[9]</div>
+      <div class="pub-content">
+        <div class="pub-title">Value Before Autonomy: A Human-Centered Model for Consumer Robots</div>
+        <div class="pub-authors"><strong>Samuel Oyefusi</strong>, Peter Onu</div>
+        <div class="pub-venue">International Journal of Social Robotics, Springer Nature <span class="pub-badge springer">Springer</span> <span class="pub-badge review">In Review</span></div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[10]</div>
+      <div class="pub-content">
+        <div class="pub-title">Easy Inertial Measurement Unit (EIMU): A Cost-Effective IMU for Robotic State Estimation and ROS2 Systems</div>
+        <div class="pub-authors">Samuel Obiagba, <strong>Samuel Oyefusi</strong>, Peter Onu</div>
+        <div class="pub-venue">8th Int'l Conference on Innovative and Smart Materials <span class="pub-badge review">Under Publishing</span></div>
+      </div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-num">[11]</div>
+      <div class="pub-content">
+        <div class="pub-title">Easy PID Motor Controller (EPMC): A Cost-Effective Closed-Loop PID Controller with ROS2 Support</div>
+        <div class="pub-authors">Samuel Obiagba, <strong>Samuel Oyefusi</strong>, Peter Onu</div>
+        <div class="pub-venue">8th Int'l Conference on Innovative and Smart Materials <span class="pub-badge review">Under Publishing</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     ACTIVITIES
+══════════════════════════════════════════════════════════════ -->
+<section id="activities" class="section">
+  <div class="section-header">
+    <h2>Activities</h2>
+  </div>
+
+  <div class="activity-item reveal">
+    <div class="act-logo">🌍</div>
+    <div class="act-content">
+      <div class="act-header">
+        <span class="act-role">Global Ambassador</span>
+        <span class="act-date">Ongoing</span>
+      </div>
+      <div class="act-org">Theirworld</div>
+      <div class="act-desc">Advocate for SDG 4 (Quality Education) and SDG 7 (Clean Energy) at international youth forums, including UNICEF World Children's Day and UN World Food Forum.</div>
+    </div>
+  </div>
+
+  <div class="activity-item reveal">
+    <div class="act-logo">🤖</div>
+    <div class="act-content">
+      <div class="act-header">
+        <span class="act-role">Summer Course Instructor — Introduction to ROS 2</span>
+        <span class="act-date">Summer 2025</span>
+      </div>
+      <div class="act-org">Black in Robotics</div>
+      <div class="act-desc">Designed and delivered the ROS 2 summer workshop for participants across Africa and the diaspora. Materials have 19+ GitHub stars and remain publicly available.</div>
+    </div>
+  </div>
+
+  <div class="activity-item reveal">
+    <div class="act-logo">🌱</div>
+    <div class="act-content">
+      <div class="act-header">
+        <span class="act-role">President, Living Green Club</span>
+        <span class="act-date">Jul 2021 – Sept 2024</span>
+      </div>
+      <div class="act-org">Pan-Atlantic University, Lagos</div>
+      <div class="act-desc">Led smart irrigation and flood-prevention projects benefiting 200+ community members. Managed CSR collaborations with corporate partners.</div>
+    </div>
+  </div>
+
+  <div class="activity-item reveal">
+    <div class="act-logo">🏛️</div>
+    <div class="act-content">
+      <div class="act-header">
+        <span class="act-role">Alumni Class President</span>
+        <span class="act-date">Nov 2024 – Present</span>
+      </div>
+      <div class="act-org">Pan-Atlantic University</div>
+      <div class="act-desc">Organised industry excursions, secured fundraising, and represented PAU at alumni decision-making events.</div>
+    </div>
+  </div>
+
+  <div class="activity-item reveal">
+    <div class="act-logo">🚀</div>
+    <div class="act-content">
+      <div class="act-header">
+        <span class="act-role">Co-Founder</span>
+        <span class="act-date"></span>
+      </div>
+      <div class="act-org">Ridebuddy</div>
+      <div class="act-desc">Mobility platform improving affordable transportation access in Nigerian cities, aligned with SDG 11 (Sustainable Cities).</div>
+    </div>
+  </div>
+
+  <div class="activity-item reveal">
+    <div class="act-logo">🎤</div>
+    <div class="act-content">
+      <div class="act-header">
+        <span class="act-role">Speaker &amp; Panellist</span>
+        <span class="act-date"></span>
+      </div>
+      <div class="act-org">International Conferences &amp; Media</div>
+      <div class="act-desc">
+        Presenter at GET1 · UNICEF World Children's Day · UN World Food Forum · SGAC Space Industry Panel · Machine Learning Lagos.
+        Featured in Neural Narratives, BusinessDay, Al Jazeera, Channels TV, YouTube/Spotify.
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════════
      FOOTER
-============================================================ -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<tbody>
-<tr>
-<td style="padding:0px">
-  <br>
-  <p style="text-align:right;font-size:small;">
-    Website template from <a href="https://jonbarron.info/">Jon Barron</a>.
-    Inspired by <a href="https://simeonoa.github.io/">Simeon Adebola</a>,
-    <a href="https://kenembanisi.github.io/">Kene Mbanisi</a>,
-    and <a href="https://iitimii.github.io/">Timi Owolabi</a>.
-  </p>
-</td>
-</tr>
-</tbody>
-</table>
-
-</td>
-</tr>
-</tbody>
-</table>
+══════════════════════════════════════════════════════════════ -->
+<footer>
+  <p>Base structure from <a href="https://jonbarron.info/">Jon Barron's template</a>.
+  Inspired by <a href="https://simc4-u.github.io/simranchauhan.github.io/">Simran Chauhan</a>
+  and <a href="https://kenembanisi.github.io/">Kene Mbanisi</a>.</p>
+</footer>
 
 
-<!-- ============================================================
-     JS — hover highlighting
-============================================================ -->
-<script type="text/javascript">
-  var rows = [
-    'cbf','edu','elder','mm','vcpf','trust','ros','hri','ics',
-    'jackal','cbfhw','pybullet','rrt','motion','bir','zed','asprob'
-  ];
-  rows.forEach(function(id) {
-    window[id + '_over'] = function() {
-      document.querySelectorAll("tr[onmouseover*='" + id + "_over']").forEach(function(r) {
-        r.style.backgroundColor = '#ffffd0';
-      });
-    };
-    window[id + '_out'] = function() {
-      document.querySelectorAll("tr[onmouseout*='" + id + "_out']").forEach(function(r) {
-        r.style.backgroundColor = 'transparent';
-      });
-    };
+<!-- Back to top -->
+<button id="back-to-top" aria-label="Back to top">↑</button>
+
+
+<!-- ══════════════════════════════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════════════════════════════ -->
+<script>
+/* ── 1. Dark / Light mode ──────────────────────────────────────── */
+const toggle = document.getElementById('theme-toggle');
+const html   = document.documentElement;
+
+const saved = localStorage.getItem('theme') || 'light';
+html.setAttribute('data-theme', saved);
+toggle.textContent = saved === 'dark' ? '☀️' : '🌙';
+
+toggle.addEventListener('click', () => {
+  const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  toggle.textContent = next === 'dark' ? '☀️' : '🌙';
+});
+
+
+/* ── 2. Typewriter animation ───────────────────────────────────── */
+const phrases = [
+  'Robot Perception & Scene Understanding',
+  'HRI & Safety-Critical Control',
+  'ROS 2 · Mobile Manipulation · Autonomy',
+  'SDG Advocate · Community Builder',
+  'PhD Student @ Oakland University',
+];
+const target = document.getElementById('typewriter-text');
+let pi = 0, ci = 0, deleting = false;
+
+function type() {
+  const phrase = phrases[pi];
+  if (!deleting) {
+    target.textContent = phrase.slice(0, ++ci);
+    if (ci === phrase.length) { deleting = true; setTimeout(type, 1800); return; }
+    setTimeout(type, 55);
+  } else {
+    target.textContent = phrase.slice(0, --ci);
+    if (ci === 0) { deleting = false; pi = (pi + 1) % phrases.length; setTimeout(type, 400); return; }
+    setTimeout(type, 28);
+  }
+}
+type();
+
+
+/* ── 3. Active nav on scroll ───────────────────────────────────── */
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-link');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(l => l.classList.remove('active'));
+      const active = document.querySelector(`.nav-link[href="#${e.target.id}"]`);
+      if (active) active.classList.add('active');
+    }
   });
+}, { rootMargin: '-40% 0px -55% 0px' });
+
+sections.forEach(s => observer.observe(s));
+
+
+/* ── 4. Scroll reveal ──────────────────────────────────────────── */
+const revealEls = document.querySelectorAll('.reveal');
+const revealObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      revealObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+revealEls.forEach(el => revealObs.observe(el));
+
+
+/* ── 5. Project filter ─────────────────────────────────────────── */
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    document.querySelectorAll('.project-card').forEach(card => {
+      const tags = (card.dataset.tags || '').split(' ');
+      const show = filter === 'all' || tags.includes(filter);
+      card.classList.toggle('hidden', !show);
+    });
+  });
+});
+
+
+/* ── 6. Back to top ────────────────────────────────────────────── */
+const btt = document.getElementById('back-to-top');
+window.addEventListener('scroll', () => {
+  btt.classList.toggle('visible', window.scrollY > 320);
+});
+btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
 </script>
 
 </body>
