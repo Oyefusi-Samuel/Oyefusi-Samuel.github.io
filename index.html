@@ -4,134 +4,267 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samuel Oluwakorede Oyefusi</title>
-  <meta name="description" content="Samuel Oyefusi — PhD student at Oakland University. Research in Robot Perception, 3D Scene Graphs, HRI, and Safe Autonomy.">
+  <meta name="description" content="Samuel Oyefusi — PhD student at Oakland University. Robot Perception, Scene Understanding, HRI.">
   <meta name="author" content="Samuel Oluwakorede Oyefusi">
   <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ══════════════════════════════════════════════════════════════
-     NAVBAR
-══════════════════════════════════════════════════════════════ -->
+<!-- NAVBAR -->
 <nav id="navbar">
   <span class="nav-name">Samuel Oyefusi</span>
   <ul>
-    <li><a href="#research" class="nav-link">Research</a></li>
-    <li><a href="#projects" class="nav-link">Projects</a></li>
-    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#news"         class="nav-link">News</a></li>
+    <li><a href="#research"     class="nav-link">Research</a></li>
     <li><a href="#publications" class="nav-link">Publications</a></li>
-    <li><a href="#activities" class="nav-link">Activities</a></li>
+    <li><a href="#projects"     class="nav-link">Projects</a></li>
+    <li><a href="#experience"   class="nav-link">Experience</a></li>
   </ul>
-  <div class="nav-right">
-    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
-  </div>
+  <div><button id="theme-toggle" aria-label="Toggle dark mode">🌙</button></div>
 </nav>
 
 
-<!-- ══════════════════════════════════════════════════════════════
-     HERO
-══════════════════════════════════════════════════════════════ -->
+<!-- HERO -->
+<div class="wrap">
 <section id="hero">
-  <!-- Replace div below with: <img src="images/samuel_oyefusi.jpg" class="hero-photo" alt="Samuel Oyefusi"> -->
-  <div <img src="images/samuel_oyefusi.jpg" class="hero-photo" alt="Samuel Oyefusi"></div>
 
+  <!-- Profile photo — drop samuel_oyefusi.jpg into images/ folder -->
+  <img
+    src="images/samuel_oyefusi.jpg"
+    class="hero-photo"
+    alt="Samuel Oyefusi"
+    onerror="this.style.display='none';document.getElementById('hero-initials').style.display='flex'">
+  <div class="hero-initials" id="hero-initials" style="display:none">SO</div>
 
   <div class="hero-text">
-    <h1>Samuel Oluwakorede Oyefusi.</h1>
-    <p class="hero-tagline"><span id="typewriter-text"></span><span class="cursor"></span></p>
+    <h1>Samuel Oluwakorede Oyefusi</h1>
+    <p class="hero-tagline">
+      <span id="typewriter-text"></span><span class="cursor"></span>
+    </p>
 
     <p class="hero-bio">
-      I'm a PhD student in Electrical and Computer Engineering at
-      <strong><a href="https://www.oakland.edu/">Oakland University</a></strong>
+      I am a PhD student in Electrical and Computer Engineering at
+      <strong><a href="https://www.oakland.edu/">Oakland University</a></strong>, Michigan,
       advised by <strong><a href="https://jaredstrader.github.io/">Prof. Jared Strader</a></strong>.
-      My research spans <strong>Robot Perception</strong>, <strong>Autonomy</strong>, <strong>Sensor Fusion</strong>,and <strong>human-robot interaction</strong>.
-      I was previously an  M.S. student in Robotics Engineering  from
-      <strong><a href="https://www.wpi.edu/">WPI</a></strong>
-      and i holda First Class B.Eng. from
-      <strong><a href="https://pau.edu.ng/">Pan-Atlantic University</a></strong>,.
-     </p>
-
+      My research focuses on <strong>robot perception</strong>,
+      <strong>3D scene understanding</strong>, and <strong>autonomy</strong>
+      for mobile robotic systems.
+    </p>
+    <p class="hero-bio">
+      Previously, I was an M.S. student in Robotics Engineering (GPA 4.0/4.0) at
+      <strong><a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a></strong>
+      and received a First Class B.Eng. from
+      <strong><a href="https://pau.edu.ng/">Pan-Atlantic University</a></strong>, Lagos.
+      I hold P.E. and PMP&reg; certifications.
     </p>
 
     <div class="hero-links">
-      <a href="mailto:samueloyefusi@gmail.com">✉ Email</a>
-      <a href="data/SamuelOyefusi-CV.pdf" target="_blank">📄 CV</a>
-      <a href="https://scholar.google.com/citations?user=iN-54uIAAAAJ&hl=en" target="_blank">🎓 Scholar</a>
-      <a href="https://orcid.org/0009-0009-0367-168X" target="_blank">🔗 ORCID</a>
-      <a href="https://www.linkedin.com/in/samuel-oyefusi/" target="_blank">💼 LinkedIn</a>
-      <a href="https://github.com/Oyefusi-Samuel" target="_blank">🐙 GitHub</a>
-      <a href="https://x.com/OyefusiSamuel" target="_blank">𝕏 Twitter</a>
+      <a href="mailto:samueloyefusi@gmail.com">Email</a>
+      <a href="data/SamuelOyefusi-CV.pdf" target="_blank">CV</a>
+      <a href="https://scholar.google.com/citations?user=iN-54uIAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="https://orcid.org/0009-0009-0367-168X" target="_blank">ORCID</a>
+      <a href="https://www.linkedin.com/in/samuel-oyefusi/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Oyefusi-Samuel" target="_blank">GitHub</a>
+      <a href="https://x.com/OyefusiSamuel" target="_blank">X / Twitter</a>
     </div>
   </div>
 </section>
-
-
-<!-- Stats bar -->
-<div class="stats-bar">
-  <div class="stats-inner">
-    <div class="stat"><div class="stat-num">11</div><div class="stat-label">Publications</div></div>
-    <div class="stat"><div class="stat-num">6</div><div class="stat-label">Reviewer Roles</div></div>
-    <div class="stat"><div class="stat-num">8</div><div class="stat-label">Projects</div></div>
-    <div class="stat"><div class="stat-num">3</div><div class="stat-label">Internships</div></div>
-    <div class="stat"><div class="stat-num">4.0</div><div class="stat-label">MS GPA</div></div>
-  </div>
 </div>
 
 
-<!-- ══════════════════════════════════════════════════════════════
-     RESEARCH
-══════════════════════════════════════════════════════════════ -->
-<section id="research" class="section">
-  <div class="section-header">
-    <h2>Research</h2>
-    <p class="section-sub">Lab research in robot perception, safety-critical control, and HRI at Oakland University &amp; WPI</p>
+<!-- NEWS -->
+<div class="wrap">
+<section id="news" class="section">
+  <h2 class="section-title">News</h2>
+  <hr class="section-rule">
+
+  <div class="news-list">
+
+    <div class="news-item reveal">
+      <span class="news-date">Sept 2026</span>
+      <span class="news-text">
+        <strong>Started PhD</strong> in Electrical &amp; Computer Engineering at
+        <a href="https://www.oakland.edu/">Oakland University</a>,
+        advised by <a href="https://jaredstrader.github.io/">Prof. Jared Strader</a>.
+      </span>
+    </div>
+
+    <div class="news-item reveal">
+      <span class="news-date">Aug 2026</span>
+      <span class="news-text">
+        <strong>Paper accepted</strong> — "The Potential of Generative AI to Improve Learning in Schools"
+        at the 3rd Int'l Conference on Sustainability: Developments &amp; Innovations,
+        <a href="#">Springer Nature</a>.
+      </span>
+    </div>
+
+    <div class="news-item reveal">
+      <span class="news-date">Aug 2026</span>
+      <span class="news-text">
+        <strong>Awarded</strong> the <a href="#">WPI Provost Scholarship</a> and
+        <a href="#">Black in Robotics Travel Award</a> for 2026.
+      </span>
+    </div>
+
+    <div class="news-item reveal">
+      <span class="news-date">Jul 2026</span>
+      <span class="news-text">
+        <strong>Paper published</strong> — "Mortality of Distributed Understanding"
+        in <a href="#">Human Arenas</a>, Springer Nature (with Alexander Ozoani).
+      </span>
+    </div>
+
+    <div class="news-item reveal">
+      <span class="news-date">May 2026</span>
+      <span class="news-text">
+        <strong>Paper published</strong> — "Development of a Cost-Effective Autonomous
+        UVC Disinfection and Vacuum-Cleaning Robot" at
+        <a href="#">ICARA 2026</a>.
+      </span>
+    </div>
+
+    <div class="news-item reveal">
+      <span class="news-date">Summer 2025</span>
+      <span class="news-text">
+        <strong>Taught</strong> Introduction to ROS 2 at the
+        <a href="https://github.com/Oyefusi-Samuel/BIR-Intro-to-ROS2">Black in Robotics Summer Workshop</a>
+        — materials now have 19+ GitHub stars.
+      </span>
+    </div>
+
+    <div class="news-item reveal">
+      <span class="news-date">Dec 2025</span>
+      <span class="news-text">
+        <strong>Paper published</strong> — "Designing Resilient AI-Powered Digital Assistants
+        for Industrial Applications" at <a href="#">IEEE IEEM 2025</a>
+        (with Peter Onu, Anup Pradhan, Nelson Madonsela).
+      </span>
+    </div>
+
+    <div class="news-item reveal">
+      <span class="news-date">Nov 2025</span>
+      <span class="news-text">
+        <strong>Paper published</strong> — "Addressing AI Bias through Inclusivity:
+        A Case Study with Nigerian Food Images" at
+        <a href="https://github.com/Oyefusi-Samuel/nigerian-food-classification">ICAIDE 2025</a>,
+        Guangzhou, China, pp. 469–473.
+      </span>
+    </div>
+
+    <div class="news-item reveal">
+      <span class="news-date">Jan 2025</span>
+      <span class="news-text">
+        <strong>Started M.S.</strong> in Robotics Engineering at
+        <a href="https://www.wpi.edu/">WPI</a> — completed with a 4.0/4.0 GPA.
+      </span>
+    </div>
+
+  </div>
+</section>
+</div>
+
+
+<!-- EDUCATION -->
+<div class="wrap">
+<section id="education" class="section">
+  <h2 class="section-title">Education</h2>
+  <hr class="section-rule">
+
+  <div class="edu-item reveal">
+    <!-- Drop images/oakland_logo.png in your images folder -->
+    <div class="edu-logo">
+      <img src="images/oakland_logo.png" alt="Oakland University"
+           onerror="this.style.display='none';this.parentNode.innerHTML='🎓'">
+    </div>
+    <div class="edu-content">
+      <div class="edu-header">
+        <span class="edu-degree">Ph.D., Electrical &amp; Computer Engineering</span>
+        <span class="edu-date">Sept 2026 – 2030</span>
+      </div>
+      <div class="edu-school">Oakland University · Michigan, USA</div>
+      <div class="edu-detail">Advisor: Prof. Jared Strader</div>
+    </div>
   </div>
 
-  <!-- Research 1 -->
+  <div class="edu-item reveal">
+    <div class="edu-logo">
+      <img src="images/wpi_logo.png" alt="WPI"
+           onerror="this.style.display='none';this.parentNode.innerHTML='🎓'">
+    </div>
+    <div class="edu-content">
+      <div class="edu-header">
+        <span class="edu-degree">M.S., Robotics Engineering</span>
+        <span class="edu-date">Jan 2025 – Dec 2026</span>
+      </div>
+      <div class="edu-school">Worcester Polytechnic Institute · Massachusetts, USA</div>
+      <div class="edu-detail">GPA: 4.0 / 4.0</div>
+    </div>
+  </div>
+
+  <div class="edu-item reveal">
+    <div class="edu-logo">
+      <img src="images/pau_logo.png" alt="Pan-Atlantic University"
+           onerror="this.style.display='none';this.parentNode.innerHTML='🎓'">
+    </div>
+    <div class="edu-content">
+      <div class="edu-header">
+        <span class="edu-degree">B.Eng., Mechanical Engineering</span>
+        <span class="edu-date">Jan 2020 – Dec 2024</span>
+      </div>
+      <div class="edu-school">Pan-Atlantic University · Lagos, Nigeria</div>
+      <div class="edu-detail">First Class · GPA: 4.79 / 5.0 · 2nd Overall Best Student, Faculty of Engineering</div>
+    </div>
+  </div>
+
+</section>
+</div>
+
+
+<!-- RESEARCH -->
+<div class="wrap">
+<section id="research" class="section">
+  <h2 class="section-title">Research</h2>
+  <hr class="section-rule">
+
   <div class="research-item reveal">
-    <div class="research-media">
-      <!-- Replace with: <video src="videos/scenegraph_demo.mp4" muted autoplay loop></video> -->
-      <div class="media-placeholder" style="background:linear-gradient(135deg,#1772d0,#0d3b7a);">🗺️</div>
+    <div class="research-thumb">
+      <!-- <video src="videos/scenegraph_demo.mp4" muted autoplay loop></video> -->
+      <img src="images/scenegraph_thumb.jpg" alt="Scene Graph"
+           onerror="this.outerHTML='<span>🗺️</span>'">
     </div>
     <div class="research-content">
-      <h3>3D Scene Graph Generation for Autonomous Robots using Hydra + Perception Encoder</h3>
-      <div class="research-venue">Oakland University · Spatial AI &amp; Robotics Lab · 2026–present</div>
-      <p>Building on the Hydra scene graph pipeline, this work replaces CLIP with Meta's Perception Encoder
-      to generate richer semantic embeddings for place nodes in 3D spatial graphs.
-      The goal is to enable robots to reason about environments at multiple semantic levels —
-      room, object, and surface — for long-horizon planning and human-intelligible scene description.
-      Deployed in a Docker-based pipeline on Ubuntu 24.04 with RTX 3080.</p>
+      <h3>3D Scene Graph Generation with Hydra + Perception Encoder</h3>
+      <div class="research-venue">Oakland University · Spatial AI &amp; Robotics Lab · 2026 – present</div>
+      <p>Building on the Hydra scene graph pipeline, replacing CLIP with Meta's Perception Encoder
+      to generate richer semantic embeddings for place nodes in 3D spatial graphs —
+      enabling robots to reason over rooms, objects, and surfaces for long-horizon planning.</p>
       <div class="research-links">
         <a href="#">project page →</a>
-        <a href="#">arXiv (coming soon)</a>
+        <a href="#">arXiv (soon)</a>
       </div>
       <div class="tags">
         <span class="tag">Scene Graphs</span>
         <span class="tag">Hydra</span>
         <span class="tag">Perception Encoder</span>
-        <span class="tag">Docker</span>
         <span class="tag">ROS 2</span>
+        <span class="tag">Docker</span>
       </div>
     </div>
   </div>
 
-  <!-- Research 2 -->
   <div class="research-item reveal">
-    <div class="research-media">
-      <!-- Replace with: <video src="videos/pepper_hri.mp4" muted autoplay loop></video> -->
-      <div class="media-placeholder" style="background:linear-gradient(135deg,#880e4f,#c62828);">🤖</div>
+    <div class="research-thumb">
+      <img src="images/pepper_thumb.jpg" alt="Pepper HRI"
+           onerror="this.outerHTML='<span>🤖</span>'">
     </div>
     <div class="research-content">
-      <h3>Multimodal HRI Data Collection with Pepper Robot and Intel RealSense D435</h3>
-      <div class="research-venue">WPI RoboCareLab · Prof. Zachary Zhao · 2025–2026</div>
-      <p>Designed and deployed a multimodal HRI data collection system on the Pepper social robot,
-      integrating Intel RealSense D435 depth sensing, tablet-based interaction interfaces, and
-      audio pipelines. Ran live user experiments, and debugged the bridge server and sensor stack.
-      Data feeds downstream HRI models for healthcare robot interaction design.</p>
+      <h3>Multimodal HRI Data Collection with Pepper + Intel RealSense D435</h3>
+      <div class="research-venue">WPI RoboCareLab · Prof. Zachary Zhao · 2025 – 2026</div>
+      <p>Deployed a multimodal HRI data collection system on the Pepper social robot,
+      integrating RealSense D435 depth sensing, tablet interaction, and audio pipelines.
+      Ran live user experiments and debugged bridge server and sensor stacks for
+      healthcare robot interaction research.</p>
       <div class="research-links">
         <a href="#">project page →</a>
         <a href="https://github.com/Oyefusi-Samuel">code</a>
@@ -140,47 +273,154 @@
         <span class="tag">HRI</span>
         <span class="tag">Pepper Robot</span>
         <span class="tag">RealSense D435</span>
-        <span class="tag">Data Collection</span>
       </div>
     </div>
   </div>
 
-  <!-- Research 3 -->
   <div class="research-item reveal">
-    <div class="research-media">
-      <div class="media-placeholder" style="background:linear-gradient(135deg,#1b5e20,#2e7d32);">🛡️</div>
+    <div class="research-thumb">
+      <img src="images/cbf_thumb.jpg" alt="CBF"
+           onerror="this.outerHTML='<span>🛡️</span>'">
     </div>
     <div class="research-content">
-      <h3>Safety-Critical Control with CBF-MPC-Transformer for Healthcare Robots</h3>
-      <div class="research-venue">WPI · 8th International Conference on Industry of the Future &amp; Smart Manufacturing · 2024</div>
-      <p>A unified framework combining Control Barrier Functions, Model Predictive Control, and a
-      Transformer-based human-intent predictor to enforce hard safety constraints during
-      human-robot collaboration. Validated on hospital AMR scenarios across surgical,
-      stroke rehabilitation, and ICU telepresence settings with formal forward-invariance proofs.</p>
+      <h3>CBF-MPC-Transformer for Safety-Critical Healthcare Robotics</h3>
+      <div class="research-venue">WPI · 8th Int'l Conference on Industry of the Future · 2024</div>
+      <p>A unified framework of Control Barrier Functions, MPC, and a Transformer-based
+      human-intent predictor enforcing hard safety constraints in human-robot collaboration.
+      Validated on hospital AMR scenarios with formal forward-invariance proofs.</p>
       <div class="research-links">
-        <a href="#">arXiv (coming soon)</a>
+        <a href="#">arXiv (soon)</a>
       </div>
       <div class="tags">
         <span class="tag">CBF</span>
         <span class="tag">MPC</span>
         <span class="tag">Transformer</span>
         <span class="tag">Healthcare Robotics</span>
-        <span class="tag">MATLAB</span>
       </div>
     </div>
   </div>
 
 </section>
+</div>
 
 
-<!-- ══════════════════════════════════════════════════════════════
-     PROJECTS
-══════════════════════════════════════════════════════════════ -->
-<section id="projects" class="section">
-  <div class="section-header">
-    <h2>Selected Projects</h2>
-    <p class="section-sub">Graduate coursework &amp; independent projects in robotics, motion planning, and AI</p>
+<!-- PUBLICATIONS -->
+<div class="wrap">
+<section id="publications" class="section">
+  <h2 class="section-title">Publications</h2>
+  <hr class="section-rule">
+  <p style="font-size:13.5px;color:var(--text2);margin-bottom:18px;">
+    <strong>Samuel Oyefusi</strong> underlined in all entries.
+  </p>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[1]</div>
+    <div>
+      <div class="pub-title">Development of a Cost-Effective Autonomous UVC Disinfection and Vacuum-Cleaning Robot</div>
+      <div class="pub-authors"><strong>S. Oyefusi</strong>, D. Agholor, L. Ukpoju, P. Onu</div>
+      <div class="pub-venue">ICARA, 2026 <span class="pub-badge pub">Published</span></div>
+    </div>
   </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[2]</div>
+    <div>
+      <div class="pub-title">Mortality of Distributed Understanding</div>
+      <div class="pub-authors">A. Ozoani, <strong>S. Oyefusi</strong></div>
+      <div class="pub-venue">Human Arenas, Springer Nature, 2026, pp. 1–7 <span class="pub-badge springer">Springer</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[3]</div>
+    <div>
+      <div class="pub-title">Application of Vector Integral Theorems in Engineering</div>
+      <div class="pub-authors"><strong>S. Oyefusi</strong>, R. Kareem, O. Avebenake</div>
+      <div class="pub-venue">Vol. 1 No. 2, 2026</div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[4]</div>
+    <div>
+      <div class="pub-title">Utilization of Machine Learning Techniques in Predicting Burnout in Organizations</div>
+      <div class="pub-authors">I. Oduwaiye, <strong>S. Oyefusi</strong>, A. Okunlola, M. Alabi</div>
+      <div class="pub-venue">International Journal of Computer Applications, Vol. 187, No. 113, 2026</div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[5]</div>
+    <div>
+      <div class="pub-title">The Potential of Generative AI to Improve Learning in Schools</div>
+      <div class="pub-authors"><strong>S. Oyefusi</strong>, O. Bukola, P. Onu</div>
+      <div class="pub-venue">3rd Int'l Conf. on Sustainability: Developments &amp; Innovations, Springer Nature <span class="pub-badge springer">Springer</span> <span class="pub-badge review">In Press</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[6]</div>
+    <div>
+      <div class="pub-title">Designing Resilient AI-Powered Digital Assistants for Industrial Applications: A Mini Review</div>
+      <div class="pub-authors">P. Onu, A. Pradhan, N. Madonsela, <strong>S. Oyefusi</strong></div>
+      <div class="pub-venue">IEEE IEEM, 2025 <span class="pub-badge ieee">IEEE</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[7]</div>
+    <div>
+      <div class="pub-title">Addressing AI Bias through Inclusivity: A Case Study with Nigerian Food Images</div>
+      <div class="pub-authors">T. Osadebey, <strong>S. Oyefusi</strong>, M. Udeogu</div>
+      <div class="pub-venue">ICAIDE, Guangzhou, China, 2025, pp. 469–473 <span class="pub-badge pub">Published</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[8]</div>
+    <div>
+      <div class="pub-title">Virtual Reality Training System for Enhancing Skill Transferability in Volleyball Players</div>
+      <div class="pub-authors">C. Okwuokei, D. Moru, C. Uroh, <strong>S. Oyefusi</strong></div>
+      <div class="pub-venue">Journal of Virtual Worlds, MDPI <span class="pub-badge review">In Review</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[9]</div>
+    <div>
+      <div class="pub-title">Value Before Autonomy: A Human-Centered Model for Consumer Robots</div>
+      <div class="pub-authors"><strong>S. Oyefusi</strong>, P. Onu</div>
+      <div class="pub-venue">International Journal of Social Robotics, Springer Nature <span class="pub-badge springer">Springer</span> <span class="pub-badge review">In Review</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[10]</div>
+    <div>
+      <div class="pub-title">Easy IMU (EIMU): A Cost-Effective IMU for Real-Time Orientation in ROS2 Systems</div>
+      <div class="pub-authors">S. Obiagba, <strong>S. Oyefusi</strong>, P. Onu</div>
+      <div class="pub-venue">8th Int'l Conf. on Innovative and Smart Materials <span class="pub-badge review">In Press</span></div>
+    </div>
+  </div>
+
+  <div class="pub-item reveal">
+    <div class="pub-num">[11]</div>
+    <div>
+      <div class="pub-title">Easy PID Motor Controller (EPMC): A Cost-Effective Closed-Loop Controller with ROS2 Support</div>
+      <div class="pub-authors">S. Obiagba, <strong>S. Oyefusi</strong>, P. Onu</div>
+      <div class="pub-venue">8th Int'l Conf. on Innovative and Smart Materials <span class="pub-badge review">In Press</span></div>
+    </div>
+  </div>
+
+</section>
+</div>
+
+
+<!-- PROJECTS -->
+<div class="wrap">
+<section id="projects" class="section">
+  <h2 class="section-title">Projects</h2>
+  <hr class="section-rule">
 
   <div class="filter-bar">
     <button class="filter-btn active" data-filter="all">All</button>
@@ -193,16 +433,14 @@
 
   <div class="projects-grid">
 
-    <!-- Card 1: Jackal + AR4 -->
     <div class="project-card reveal" data-tags="ros2">
       <div class="project-thumb">
-        <!-- <video src="videos/jackal_demo.mp4" muted autoplay loop></video> -->
-        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#1565c0,#0d47a1);">🦾</div>
+        <img src="images/jackal_thumb.jpg" alt="Jackal" onerror="this.outerHTML='<span>🦾</span>'">
       </div>
       <div class="project-body">
-        <h3>Jackal J100 + AR4 Arm — Mobile Manipulation</h3>
-        <div class="project-meta">ROS 2 Jazzy · Gazebo Harmonic · MoveIt 2 · Nav2 · 2025–2026</div>
-        <p>Full-stack ROS 2 simulation: YDLiDAR SLAM, Nav2 A* navigation, MoveIt2 motion planning, and coordinated mobile manipulation.</p>
+        <h3>Jackal J100 + AR4 — Mobile Manipulation</h3>
+        <div class="project-meta">ROS 2 Jazzy · Gazebo Harmonic · MoveIt 2 · Nav2</div>
+        <p>Full-stack simulation: YDLiDAR SLAM, Nav2 A* navigation, MoveIt2 motion planning.</p>
         <div class="project-footer">
           <div class="tags"><span class="tag">ROS 2</span><span class="tag">SLAM</span></div>
           <a href="https://github.com/Oyefusi-Samuel" class="project-link">code →</a>
@@ -210,16 +448,14 @@
       </div>
     </div>
 
-    <!-- Card 2: VALET + WILDFIRE -->
     <div class="project-card reveal" data-tags="planning">
       <div class="project-thumb">
-        <!-- <img src="images/valet_thumb.gif"> -->
-        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#bf360c,#e64a19);">🅿️</div>
+        <img src="images/valet_thumb.jpg" alt="VALET" onerror="this.outerHTML='<span>🅿️</span>'">
       </div>
       <div class="project-body">
         <h3>VALET: Hybrid A* Parking + WILDFIRE: Multi-Agent A*</h3>
         <div class="project-meta">Python · RBE 550 Motion Planning · WPI · 2026</div>
-        <p>VALET: Hybrid A* with SAT collision detection for kinematically-feasible parking. WILDFIRE: multi-agent PRM + A* with dynamic priority scheduling.</p>
+        <p>Hybrid A* with SAT collision detection; multi-agent PRM + A* with dynamic priority scheduling.</p>
         <div class="project-footer">
           <div class="tags"><span class="tag">Hybrid A*</span><span class="tag">PRM</span></div>
           <a href="#" class="project-link">code →</a>
@@ -227,142 +463,117 @@
       </div>
     </div>
 
-    <!-- Card 3: RRT -->
     <div class="project-card reveal" data-tags="planning">
       <div class="project-thumb">
-        <!-- <video src="videos/rrt_demo.mp4" muted autoplay loop></video> -->
-        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#827717,#f9a825);">🌲</div>
+        <img src="images/rrt_thumb.jpg" alt="RRT" onerror="this.outerHTML='<span>🌲</span>'">
       </div>
       <div class="project-body">
         <h3>RRT Motion Planner — Transmission Case Extraction</h3>
         <div class="project-meta">Python · Matplotlib GUI · RBE 550 · WPI · 2026</div>
-        <p>RRT planner for constrained robot arm manipulation with live animated GUI showing tree expansion and path extraction in joint space.</p>
+        <p>RRT planner with live animated GUI — tree expansion and path extraction in joint space.</p>
         <div class="project-footer">
-          <div class="tags"><span class="tag">RRT</span><span class="tag">Joint Space</span></div>
+          <div class="tags"><span class="tag">RRT</span></div>
           <a href="#" class="project-link">code →</a>
         </div>
       </div>
     </div>
 
-    <!-- Card 4: CBF Hospital AMR -->
     <div class="project-card reveal" data-tags="control hri">
       <div class="project-thumb">
-        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#4a148c,#7b1fa2);">🏥</div>
+        <img src="images/cbf_proj_thumb.jpg" alt="CBF" onerror="this.outerHTML='<span>🏥</span>'">
       </div>
       <div class="project-body">
         <h3>CBF Safety Simulation for Hospital AMRs</h3>
-        <div class="project-meta">MATLAB · RBE 526 HRI · WPI · 2025</div>
-        <p>CBF-based safety guarantees for hospital-corridor AMRs with Lyapunov stability proofs across surgical, rehab, and ICU scenarios.</p>
+        <div class="project-meta">MATLAB · RBE 526 · WPI · 2025</div>
+        <p>CBF safety guarantees with Lyapunov proofs across surgical, rehab, and ICU scenarios.</p>
         <div class="project-footer">
-          <div class="tags"><span class="tag">CBF</span><span class="tag">Lyapunov</span></div>
+          <div class="tags"><span class="tag">CBF</span><span class="tag">Control</span></div>
           <a href="#" class="project-link">code →</a>
         </div>
       </div>
     </div>
 
-    <!-- Card 5: PyBullet HRI -->
     <div class="project-card reveal" data-tags="hri">
       <div class="project-thumb">
-        <!-- <video src="videos/pybullet_demo.mp4" muted autoplay loop></video> -->
-        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#004d40,#00796b);">🧠</div>
+        <img src="images/pybullet_thumb.jpg" alt="PyBullet" onerror="this.outerHTML='<span>🧠</span>'">
       </div>
       <div class="project-body">
         <h3>Shared &amp; Supervisory Control HRI in PyBullet</h3>
         <div class="project-meta">Python · PyBullet · RBE 526 · WPI · 2025</div>
-        <p>Compared supervisory vs. shared control on Tower of Hanoi and N-Queens tasks. Measured NASA-TLX cognitive load and task completion rates.</p>
+        <p>Compared supervisory vs. shared control — Tower of Hanoi and N-Queens tasks, NASA-TLX.</p>
         <div class="project-footer">
-          <div class="tags"><span class="tag">HRI</span><span class="tag">NASA-TLX</span></div>
+          <div class="tags"><span class="tag">HRI</span></div>
           <a href="#" class="project-link">code →</a>
         </div>
       </div>
     </div>
 
-    <!-- Card 6: BIR ROS 2 Workshop -->
     <div class="project-card reveal" data-tags="ros2">
       <div class="project-thumb">
-        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#1a237e,#283593);">🌍</div>
+        <img src="images/bir_thumb.jpg" alt="BIR" onerror="this.outerHTML='<span>🌍</span>'">
       </div>
       <div class="project-body">
         <h3>Intro to ROS 2 — Black in Robotics Workshop</h3>
-        <div class="project-meta">ROS 2 · Black in Robotics · Summer 2025 · ⭐ 19 stars</div>
-        <p>Open-source workshop for Black in Robotics participants across Africa and the diaspora. Nodes, topics, services, launch files, Gazebo from scratch.</p>
+        <div class="project-meta">ROS 2 · Summer 2025 · ⭐ 19 stars</div>
+        <p>Open-source workshop for Black in Robotics participants across Africa and the diaspora.</p>
         <div class="project-footer">
-          <div class="tags"><span class="tag">ROS 2</span><span class="tag">Education</span></div>
+          <div class="tags"><span class="tag">ROS 2</span></div>
           <a href="https://github.com/Oyefusi-Samuel/BIR-Intro-to-ROS2" class="project-link">code →</a>
         </div>
       </div>
     </div>
 
-    <!-- Card 7: ZED Cleaning Robot -->
-    <div class="project-card reveal" data-tags="ros2">
-      <div class="project-thumb">
-        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#212121,#546e7a);">🤖</div>
-      </div>
-      <div class="project-body">
-        <h3>ZED Mobile Cleaning Robot — Autonomous Navigation</h3>
-        <div class="project-meta">ROS 2 · ZED Camera · ⭐ 8 stars</div>
-        <p>Autonomous mobile cleaning robot with coverage-path planning, obstacle avoidance, and ZED stereo camera-based depth sensing.</p>
-        <div class="project-footer">
-          <div class="tags"><span class="tag">Nav</span><span class="tag">Coverage</span></div>
-          <a href="https://github.com/Oyefusi-Samuel/ZED-mobile-cleaning-simulated-robot." class="project-link">code →</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 8: Nigerian Food / AI Bias -->
     <div class="project-card reveal" data-tags="ml">
       <div class="project-thumb">
-        <div class="thumb-placeholder" style="background:linear-gradient(135deg,#1b5e20,#388e3c);">🍲</div>
+        <img src="images/food_thumb.jpg" alt="Food" onerror="this.outerHTML='<span>🍲</span>'">
       </div>
       <div class="project-body">
-        <h3>AI Bias — Nigerian Food Classification Dataset</h3>
+        <h3>AI Bias — Nigerian Food Classification</h3>
         <div class="project-meta">PyTorch · Python · ICAIDE 2025</div>
-        <p>Dataset and fine-tuning pipeline showing standard vision models severely underperform on West African food imagery. Published at ICAIDE 2025, Guangzhou.</p>
+        <p>Dataset and fine-tuning pipeline addressing cultural bias in food image classifiers.</p>
         <div class="project-footer">
-          <div class="tags"><span class="tag">AI Fairness</span><span class="tag">CV</span></div>
+          <div class="tags"><span class="tag">AI Fairness</span></div>
           <a href="https://github.com/Oyefusi-Samuel/nigerian-food-classification" class="project-link">code →</a>
         </div>
       </div>
     </div>
 
-  </div><!-- /projects-grid -->
+  </div>
 </section>
+</div>
 
 
-<!-- ══════════════════════════════════════════════════════════════
-     EXPERIENCE
-══════════════════════════════════════════════════════════════ -->
+<!-- EXPERIENCE -->
+<div class="wrap">
 <section id="experience" class="section">
-  <div class="section-header">
-    <h2>Experience</h2>
-  </div>
+  <h2 class="section-title">Experience</h2>
+  <hr class="section-rule">
 
   <div class="exp-item reveal">
-    <div class="exp-logo">🎓</div>
+    <div class="exp-logo">
+      <img src="images/orangewood_logo.png" alt="Orangewood"
+           onerror="this.style.display='none';this.parentNode.innerHTML='<span>🦾</span>'">
+    </div>
     <div class="exp-content">
       <div class="exp-header">
-        <span class="exp-role">PhD Researcher</span>
-        <span class="exp-date">Sept 2026 – Present</span>
+        <span class="exp-role">Robotics Engineering Intern</span>
+        <span class="exp-date">May – Jul 2024</span>
       </div>
-      <div class="exp-org">Spatial AI &amp; Robotics Lab · Oakland University, Michigan</div>
-      <div class="exp-desc">Advised by Prof. Jared Strader. Research in 3D scene graph generation and robot perception for autonomous systems. Building Hydra + Perception Encoder pipeline on Docker/Ubuntu 24.04.</div>
+      <div class="exp-org">Orangewood · Remote</div>
+      <div class="exp-desc">
+        <ul>
+          <li>Developed advanced manipulation applications enhancing robotic dexterity.</li>
+          <li>Contributed to Robo-GPT; integrated MoveIt, ROS, and Gazebo for cobot evaluation.</li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <div class="exp-item reveal">
-    <div class="exp-logo">🤖</div>
-    <div class="exp-content">
-      <div class="exp-header">
-        <span class="exp-role">Research Assistant</span>
-        <span class="exp-date">Jan 2025 – Dec 2026</span>
-      </div>
-      <div class="exp-org">RoboCareLab · Worcester Polytechnic Institute, MA</div>
-      <div class="exp-desc">HRI experiments with Pepper robot and Intel RealSense D435. Debugged bridge server, tablet interface, and audio pipeline. Collected multimodal HRI datasets for healthcare robotics research.</div>
+    <div class="exp-logo">
+      <img src="images/technip_logo.png" alt="TechnipFMC"
+           onerror="this.style.display='none';this.parentNode.innerHTML='<span>⚙️</span>'">
     </div>
-  </div>
-
-  <div class="exp-item reveal">
-    <div class="exp-logo">⚙️</div>
     <div class="exp-content">
       <div class="exp-header">
         <span class="exp-role">Project Engineering Intern</span>
@@ -372,31 +583,17 @@
       <div class="exp-desc">
         <ul>
           <li>Assisted in developing project plans, schedules, and resource allocations.</li>
-          <li>Created technical documentation including drawings, specifications, and progress reports.</li>
+          <li>Created technical documentation including drawings and progress reports.</li>
         </ul>
       </div>
     </div>
   </div>
 
   <div class="exp-item reveal">
-    <div class="exp-logo">🦾</div>
-    <div class="exp-content">
-      <div class="exp-header">
-        <span class="exp-role">Robotics Engineering Intern</span>
-        <span class="exp-date">May – Jul 2024</span>
-      </div>
-      <div class="exp-org">Orangewood · Remote</div>
-      <div class="exp-desc">
-        <ul>
-          <li>Developed advanced manipulation applications enhancing robotic dexterity in industrial environments.</li>
-          <li>Contributed to Robo-GPT; integrated MoveIt, ROS, and Gazebo for cobot performance evaluation.</li>
-        </ul>
-      </div>
+    <div class="exp-logo">
+      <img src="images/nlng_logo.png" alt="NLNG"
+           onerror="this.style.display='none';this.parentNode.innerHTML='<span>🔧</span>'">
     </div>
-  </div>
-
-  <div class="exp-item reveal">
-    <div class="exp-logo">🔧</div>
     <div class="exp-content">
       <div class="exp-header">
         <span class="exp-role">Intern, Pipeline &amp; Gas Supply</span>
@@ -405,193 +602,33 @@
       <div class="exp-org">Nigeria LNG Limited · Nigeria</div>
       <div class="exp-desc">
         <ul>
-          <li>Analysed 25 years of pigging operations data, uncovering wear and corrosion trends.</li>
-          <li>Developed an automated data logging system improving real-time pipeline monitoring.</li>
+          <li>Analysed 25 years of pigging operations data uncovering wear and corrosion trends.</li>
+          <li>Developed an automated data logging system for real-time pipeline monitoring.</li>
         </ul>
       </div>
     </div>
   </div>
 
 </section>
+</div>
 
 
-<!-- ══════════════════════════════════════════════════════════════
-     PUBLICATIONS
-══════════════════════════════════════════════════════════════ -->
-<section id="publications" class="section">
-  <div class="section-header">
-    <h2>Publications</h2>
-    <p class="section-sub"><strong>Samuel Oyefusi</strong> bolded in all author lists</p>
-  </div>
-
-  <div class="pub-list">
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[1]</div>
-      <div class="pub-content">
-        <div class="pub-title">Development of a Cost-Effective Autonomous Ultraviolet-C Disinfection and Vacuum-Cleaning Robot</div>
-        <div class="pub-authors"><strong>Samuel Oyefusi</strong>, Darlington Agholor, Lawrence Ukpoju, Peter Onu</div>
-        <div class="pub-venue">ICARA, 2026 <span class="pub-badge pub">Published</span></div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[2]</div>
-      <div class="pub-content">
-        <div class="pub-title">Mortality of Distributed Understanding</div>
-        <div class="pub-authors">Alexander Ozoani, <strong>Samuel Oyefusi</strong></div>
-        <div class="pub-venue">Human Arenas, Springer Nature, 2026, pp. 1–7 <span class="pub-badge springer">Springer</span></div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[3]</div>
-      <div class="pub-content">
-        <div class="pub-title">Application of Vector Integral Theorems in Engineering</div>
-        <div class="pub-authors"><strong>Samuel Oyefusi</strong>, Raehan Kareem, Onoriode Avebenake</div>
-        <div class="pub-venue">Vol. 1 No. 2, 2026</div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[4]</div>
-      <div class="pub-content">
-        <div class="pub-title">Utilization of Machine Learning Techniques in Predicting Burnout in Organizations</div>
-        <div class="pub-authors">Ifeoluwa Oduwaiye, <strong>Samuel Oyefusi</strong>, Ayoola Okunlola, Melody Alabi</div>
-        <div class="pub-venue">International Journal of Computer Applications, Vol. 187, No. 113, 2026</div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[5]</div>
-      <div class="pub-content">
-        <div class="pub-title">The Potential of Generative Artificial Intelligence to Improve Learning in Schools</div>
-        <div class="pub-authors"><strong>Samuel Oyefusi</strong>, Oluwarantimi Bukola, Peter Onu</div>
-        <div class="pub-venue">3rd Int'l Conference on Sustainability: Developments &amp; Innovations, Springer Nature <span class="pub-badge springer">Springer</span> <span class="pub-badge review">Under Publishing</span></div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[6]</div>
-      <div class="pub-content">
-        <div class="pub-title">Designing Resilient AI-Powered Digital Assistants for Industrial Applications: A Mini Review</div>
-        <div class="pub-authors">Peter Onu, Anup Pradhan, Nelson Madonsela, <strong>Samuel Oyefusi</strong></div>
-        <div class="pub-venue">IEEE IEEM, 2025 <span class="pub-badge ieee">IEEE</span></div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[7]</div>
-      <div class="pub-content">
-        <div class="pub-title">Addressing Artificial Intelligence Bias through Inclusivity: A Case Study with Nigerian Food Images</div>
-        <div class="pub-authors">Tito Osadebey, <strong>Samuel Oyefusi</strong>, Micah Udeogu</div>
-        <div class="pub-venue">ICAIDE, Guangzhou, China, 2025, pp. 469–473 <span class="pub-badge pub">Published</span></div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[8]</div>
-      <div class="pub-content">
-        <div class="pub-title">Virtual Reality Training System for Enhancing Skill Transferability in Volleyball Players</div>
-        <div class="pub-authors">Chima Okwuokei, Desmond Moru, Clifford Uroh, <strong>Samuel Oyefusi</strong></div>
-        <div class="pub-venue">Journal of Virtual Worlds, MDPI <span class="pub-badge review">In Review</span></div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[9]</div>
-      <div class="pub-content">
-        <div class="pub-title">Value Before Autonomy: A Human-Centered Model for Consumer Robots</div>
-        <div class="pub-authors"><strong>Samuel Oyefusi</strong>, Peter Onu</div>
-        <div class="pub-venue">International Journal of Social Robotics, Springer Nature <span class="pub-badge springer">Springer</span> <span class="pub-badge review">In Review</span></div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[10]</div>
-      <div class="pub-content">
-        <div class="pub-title">Easy Inertial Measurement Unit (EIMU): A Cost-Effective IMU for Robotic State Estimation and ROS2 Systems</div>
-        <div class="pub-authors">Samuel Obiagba, <strong>Samuel Oyefusi</strong>, Peter Onu</div>
-        <div class="pub-venue">8th Int'l Conference on Innovative and Smart Materials <span class="pub-badge review">Under Publishing</span></div>
-      </div>
-    </div>
-
-    <div class="pub-item reveal">
-      <div class="pub-num">[11]</div>
-      <div class="pub-content">
-        <div class="pub-title">Easy PID Motor Controller (EPMC): A Cost-Effective Closed-Loop PID Controller with ROS2 Support</div>
-        <div class="pub-authors">Samuel Obiagba, <strong>Samuel Oyefusi</strong>, Peter Onu</div>
-        <div class="pub-venue">8th Int'l Conference on Innovative and Smart Materials <span class="pub-badge review">Under Publishing</span></div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════════════════════════
-     ACTIVITIES
-══════════════════════════════════════════════════════════════ -->
-<section id="activities" class="section">
-  <div class="section-header">
-    <h2>Activities</h2>
-  </div>
-
-  <div class="activity-item reveal">
-    <div class="act-logo">🌍</div>
-    <div class="act-content">
-      <div class="act-header">
-        <span class="act-role">Global Ambassador</span>
-        <span class="act-date">Ongoing</span>
-      </div>
-      <div class="act-org">Theirworld</div>
-      <div class="act-desc">Advocate for SDG 4 (Quality Education) and SDG 7 (Clean Energy) at international youth forums, including UNICEF World Children's Day and UN World Food Forum.</div>
-    </div>
-  </div>
-
-  <div class="activity-item reveal">
-    <div class="act-logo">🤖</div>
-    <div class="act-content">
-      <div class="act-header">
-        <span class="act-role">Summer Course Instructor — Introduction to ROS 2</span>
-        <span class="act-date">Summer 2025</span>
-      </div>
-      <div class="act-org">Black in Robotics</div>
-      <div class="act-desc">Designed and delivered the ROS 2 summer workshop for participants across Africa and the diaspora. Materials have 19+ GitHub stars and remain publicly available.</div>
-    </div>
-  </div>
- 
-  
-
- 
-
-</section>
-
-
-<!-- ══════════════════════════════════════════════════════════════
-     FOOTER
-══════════════════════════════════════════════════════════════ -->
+<!-- FOOTER -->
 <footer>
-  <p>Base structure from <a href="https://jonbarron.info/">Jon Barron's template</a>.
-   </footer>
+  <p>Template from <a href="https://jonbarron.info/">Jon Barron</a>.
+  Inspired by <a href="https://simc4-u.github.io/simranchauhan.github.io/">Simran Chauhan</a>.</p>
+</footer>
 
-
-<!-- Back to top -->
 <button id="back-to-top" aria-label="Back to top">↑</button>
 
 
-<!-- ══════════════════════════════════════════════════════════════
-     JAVASCRIPT
-══════════════════════════════════════════════════════════════ -->
 <script>
-/* ── 1. Dark / Light mode ──────────────────────────────────────── */
+/* Dark mode */
 const toggle = document.getElementById('theme-toggle');
-const html   = document.documentElement;
-
+const html = document.documentElement;
 const saved = localStorage.getItem('theme') || 'light';
 html.setAttribute('data-theme', saved);
 toggle.textContent = saved === 'dark' ? '☀️' : '🌙';
-
 toggle.addEventListener('click', () => {
   const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
   html.setAttribute('data-theme', next);
@@ -599,86 +636,64 @@ toggle.addEventListener('click', () => {
   toggle.textContent = next === 'dark' ? '☀️' : '🌙';
 });
 
-
-/* ── 2. Typewriter animation ───────────────────────────────────── */
+/* Typewriter */
 const phrases = [
   'Robot Perception & Scene Understanding',
-  'HRI & Safety-Critical Control',
-  'ROS 2 · Mobile Manipulation · Autonomy',
-  'Community Builder',
+  'Autonomy for Mobility & Manipulation',
+  'ROS 2 · Sensor Fusion · HRI',
   'PhD Student @ Oakland University',
 ];
-const target = document.getElementById('typewriter-text');
-let pi = 0, ci = 0, deleting = false;
-
+const el = document.getElementById('typewriter-text');
+let p = 0, c = 0, del = false;
 function type() {
-  const phrase = phrases[pi];
-  if (!deleting) {
-    target.textContent = phrase.slice(0, ++ci);
-    if (ci === phrase.length) { deleting = true; setTimeout(type, 1800); return; }
-    setTimeout(type, 55);
+  const phrase = phrases[p];
+  if (!del) {
+    el.textContent = phrase.slice(0, ++c);
+    if (c === phrase.length) { del = true; setTimeout(type, 2000); return; }
+    setTimeout(type, 60);
   } else {
-    target.textContent = phrase.slice(0, --ci);
-    if (ci === 0) { deleting = false; pi = (pi + 1) % phrases.length; setTimeout(type, 400); return; }
-    setTimeout(type, 28);
+    el.textContent = phrase.slice(0, --c);
+    if (c === 0) { del = false; p = (p + 1) % phrases.length; setTimeout(type, 400); return; }
+    setTimeout(type, 30);
   }
 }
 type();
 
-
-/* ── 3. Active nav on scroll ───────────────────────────────────── */
-const sections = document.querySelectorAll('section[id]');
-const navLinks = document.querySelectorAll('.nav-link');
-
-const observer = new IntersectionObserver(entries => {
+/* Active nav */
+const obs = new IntersectionObserver(entries => {
   entries.forEach(e => {
     if (e.isIntersecting) {
-      navLinks.forEach(l => l.classList.remove('active'));
-      const active = document.querySelector(`.nav-link[href="#${e.target.id}"]`);
-      if (active) active.classList.add('active');
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      const a = document.querySelector(`.nav-link[href="#${e.target.id}"]`);
+      if (a) a.classList.add('active');
     }
   });
 }, { rootMargin: '-40% 0px -55% 0px' });
+document.querySelectorAll('section[id]').forEach(s => obs.observe(s));
 
-sections.forEach(s => observer.observe(s));
+/* Scroll reveal */
+const ro = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); } });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
-
-/* ── 4. Scroll reveal ──────────────────────────────────────────── */
-const revealEls = document.querySelectorAll('.reveal');
-const revealObs = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      e.target.classList.add('visible');
-      revealObs.unobserve(e.target);
-    }
-  });
-}, { threshold: 0.1 });
-
-revealEls.forEach(el => revealObs.observe(el));
-
-
-/* ── 5. Project filter ─────────────────────────────────────────── */
+/* Project filter */
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    const filter = btn.dataset.filter;
+    const f = btn.dataset.filter;
     document.querySelectorAll('.project-card').forEach(card => {
       const tags = (card.dataset.tags || '').split(' ');
-      const show = filter === 'all' || tags.includes(filter);
-      card.classList.toggle('hidden', !show);
+      card.classList.toggle('hidden', f !== 'all' && !tags.includes(f));
     });
   });
 });
 
-
-/* ── 6. Back to top ────────────────────────────────────────────── */
+/* Back to top */
 const btt = document.getElementById('back-to-top');
-window.addEventListener('scroll', () => {
-  btt.classList.toggle('visible', window.scrollY > 320);
-});
+window.addEventListener('scroll', () => btt.classList.toggle('visible', scrollY > 300));
 btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-
 </script>
 
 </body>
