@@ -461,6 +461,7 @@
     <button class="filter-btn" data-filter="hri">HRI</button>
     <button class="filter-btn" data-filter="ml">ML / AI</button>
     <button class="filter-btn" data-filter="control">Control</button>
+    <button class="filter-btn" data-filter="perception">Perception</button>
   </div>
 
   <div class="projects-grid">
@@ -468,6 +469,7 @@
     <div class="project-card reveal" data-tags="ros2">
       <div class="project-thumb">
         <img src="images/jackal_thumb.jpg" alt="Jackal" onerror="this.outerHTML='<span>🦾</span>'">
+        <img class="thumb-gif" src="images/jackal_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
       </div>
       <div class="project-body">
         <h3>Jackal J100 + AR4 — Mobile Manipulation</h3>
@@ -483,6 +485,7 @@
     <div class="project-card reveal" data-tags="planning">
       <div class="project-thumb">
         <img src="images/valet_thumb.jpg" alt="VALET" onerror="this.outerHTML='<span>🅿️</span>'">
+        <img class="thumb-gif" src="images/valet_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
       </div>
       <div class="project-body">
         <h3>VALET: Hybrid A* Parking + WILDFIRE: Multi-Agent A*</h3>
@@ -498,6 +501,7 @@
     <div class="project-card reveal" data-tags="planning">
       <div class="project-thumb">
         <img src="images/rrt_thumb.jpg" alt="RRT" onerror="this.outerHTML='<span>🌲</span>'">
+        <img class="thumb-gif" src="images/rrt_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
       </div>
       <div class="project-body">
         <h3>RRT Motion Planner — Transmission Case Extraction</h3>
@@ -513,6 +517,7 @@
     <div class="project-card reveal" data-tags="control hri">
       <div class="project-thumb">
         <img src="images/cbf_proj_thumb.jpg" alt="CBF" onerror="this.outerHTML='<span>🏥</span>'">
+        <img class="thumb-gif" src="images/cbf_proj_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
       </div>
       <div class="project-body">
         <h3>CBF Safety Simulation for Hospital AMRs</h3>
@@ -528,6 +533,7 @@
     <div class="project-card reveal" data-tags="hri">
       <div class="project-thumb">
         <img src="images/pybullet_thumb.jpg" alt="PyBullet" onerror="this.outerHTML='<span>🧠</span>'">
+        <img class="thumb-gif" src="images/pybullet_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
       </div>
       <div class="project-body">
         <h3>Trust Calibration in Shared &amp; Supervisory Manipulator Control for simple HRI Puzzles</h3>
@@ -543,6 +549,7 @@
     <div class="project-card reveal" data-tags="ml">
       <div class="project-thumb">
         <img src="images/food_thumb.jpg" alt="Food" onerror="this.outerHTML='<span>🍲</span>'">
+        <img class="thumb-gif" src="images/food_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
       </div>
       <div class="project-body">
         <h3>AI Bias — Nigerian Food Classification</h3>
@@ -551,6 +558,71 @@
         <div class="project-footer">
           <div class="tags"><span class="tag">AI Fairness</span></div>
           <a href="https://github.com/Oyefusi-Samuel/nigerian-food-classification" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="control">
+      <div class="project-thumb">
+        <img src="images/zedbot_thumb.jpg" alt="ZED-BOT" onerror="this.outerHTML='<span>🧹</span>'">
+        <img class="thumb-gif" src="images/zedbot_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>ZED-BOT — Autonomous UVC Disinfection &amp; Vacuum-Cleaning Robot</h3>
+        <div class="project-meta">Simulated Mobile Robot · ICARA 2026</div>
+        <p>Cost-effective autonomous robot combining UVC disinfection with vacuum-cleaning coverage for indoor sanitation.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Autonomy</span><span class="tag">Robot Design</span></div>
+          <a href="https://github.com/Oyefusi-Samuel/ZED-mobile-cleaning-simulated-robot" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- TODO: only a title was provided for this one — add venue/year, description, tags, and a code/project link -->
+    <div class="project-card reveal" data-tags="control">
+      <div class="project-thumb">
+        <img src="images/manipulator_dynamics_thumb.jpg" alt="Manipulator Dynamics" onerror="this.outerHTML='<span>🦿</span>'">
+        <img class="thumb-gif" src="images/manipulator_dynamics_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>Forward and Inverse Dynamics of a Manipulator Robot</h3>
+        <div class="project-meta">Details coming soon</div>
+        <p>Write-up in progress — check back soon for the full description.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Dynamics</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="perception">
+      <div class="project-thumb">
+        <img src="images/camera_calib_thumb.jpg" alt="Camera Calibration" onerror="this.outerHTML='<span>🎯</span>'">
+        <img class="thumb-gif" src="images/camera_calib_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>Camera Calibration (Zhang's Method)</h3>
+        <div class="project-meta">WPI · 2025</div>
+        <p>A camera-calibration system using checkerboard patterns to extract intrinsics and extrinsics, with optimization to minimize geometric error and lens-distortion modeling for high-precision, low-reprojection-error results.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Camera Calibration</span><span class="tag">Zhang's Method</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="ml perception">
+      <div class="project-thumb">
+        <img src="images/traffic_counter_thumb.jpg" alt="Traffic Counter" onerror="this.outerHTML='<span>🚦</span>'">
+        <img class="thumb-gif" src="images/traffic_counter_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>Traffic Counter — YOLO Object Detection</h3>
+        <div class="project-meta">Python · YOLO</div>
+        <p>Real-time object detection pipeline that counts pedestrians, bikes, and cars in traffic video using YOLO.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">YOLO</span><span class="tag">Object Detection</span></div>
+          <a href="#" class="project-link">code →</a>
         </div>
       </div>
     </div>
