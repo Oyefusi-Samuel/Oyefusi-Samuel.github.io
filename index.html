@@ -436,9 +436,7 @@
     <button class="filter-btn" data-filter="control">Control</button>
   </div>
 
-  <div class="carousel-wrap">
-    <button class="carousel-arrow carousel-prev" aria-label="Previous projects">←</button>
-    <div class="carousel-track">
+  <div class="projects-grid">
 
     <div class="project-card reveal" data-tags="ros2">
       <div class="project-thumb">
@@ -530,10 +528,7 @@
       </div>
     </div>
 
-    </div>
-    <button class="carousel-arrow carousel-next" aria-label="Next projects">→</button>
   </div>
-  <div class="carousel-dots"></div>
 </section>
 </div>
 
@@ -671,48 +666,6 @@ const ro = new IntersectionObserver(entries => {
 }, { threshold: 0.08 });
 document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
-/* Project carousel */
-const carouselTrack = document.querySelector('.carousel-track');
-const carouselPrev = document.querySelector('.carousel-prev');
-const carouselNext = document.querySelector('.carousel-next');
-const carouselDots = document.querySelector('.carousel-dots');
-const carouselCards = Array.from(carouselTrack.querySelectorAll('.project-card'));
-
-carouselCards.forEach((card, i) => {
-  const dot = document.createElement('button');
-  dot.className = 'dot';
-  dot.setAttribute('aria-label', `Go to project ${i + 1}`);
-  dot.addEventListener('click', () => {
-    card.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });
-  });
-  carouselDots.appendChild(dot);
-});
-const carouselDotEls = Array.from(carouselDots.children);
-if (carouselDotEls[0]) carouselDotEls[0].classList.add('active');
-
-function carouselStep() {
-  const card = carouselCards.find(c => !c.classList.contains('hidden')) || carouselCards[0];
-  const gap = parseFloat(getComputedStyle(carouselTrack).gap) || 16;
-  return card.getBoundingClientRect().width + gap;
-}
-carouselPrev.addEventListener('click', () => {
-  carouselTrack.scrollBy({ left: -carouselStep(), behavior: 'smooth' });
-});
-carouselNext.addEventListener('click', () => {
-  carouselTrack.scrollBy({ left: carouselStep(), behavior: 'smooth' });
-});
-
-const carouselObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (!entry.isIntersecting || entry.intersectionRatio < 0.6) return;
-    const idx = carouselCards.indexOf(entry.target);
-    if (idx === -1) return;
-    carouselDotEls.forEach(d => d.classList.remove('active'));
-    carouselDotEls[idx].classList.add('active');
-  });
-}, { root: carouselTrack, threshold: [0.6] });
-carouselCards.forEach(c => carouselObserver.observe(c));
-
 /* Project filter */
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -723,7 +676,6 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
       const tags = (card.dataset.tags || '').split(' ');
       card.classList.toggle('hidden', f !== 'all' && !tags.includes(f));
     });
-    carouselTrack.scrollTo({ left: 0 });
   });
 });
 
