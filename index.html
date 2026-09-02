@@ -596,6 +596,86 @@
       </div>
     </div>
 
+    <div class="project-card reveal" data-tags="ml perception">
+      <div class="project-thumb">
+        <img src="images/mobilenet_thumb.jpg" alt="MobileNetV2 Transfer Learning" onerror="this.outerHTML='<span>🐾</span>'">
+        <img class="thumb-gif" src="images/mobilenet_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>Transfer Learning — MobileNetV2 (Cats vs. Dogs)</h3>
+        <div class="project-meta">Python · TensorFlow/Keras</div>
+        <p>Fine-tuned a frozen, ImageNet-pretrained MobileNetV2 via feature extraction then partial unfreezing — reached ~97–98% validation accuracy.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Transfer Learning</span><span class="tag">CNN</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="ml perception">
+      <div class="project-thumb">
+        <img src="images/vgg_inception_thumb.jpg" alt="VGG-19 vs InceptionV3" onerror="this.outerHTML='<span>📊</span>'">
+        <img class="thumb-gif" src="images/vgg_inception_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>Transfer Learning Comparison — VGG-19 vs. InceptionV3</h3>
+        <div class="project-meta">Python · TensorFlow/Keras</div>
+        <p>Benchmarked two backbones head-to-head on a 5-class dataset with an identical classifier and training setup — both reached 100% validation accuracy, but InceptionV3 converged in about half the epochs.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Transfer Learning</span><span class="tag">Benchmarking</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="ml perception">
+      <div class="project-thumb">
+        <img src="images/autoencoder_thumb.jpg" alt="Autoencoders" onerror="this.outerHTML='<span>🗜️</span>'">
+        <img class="thumb-gif" src="images/autoencoder_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>Autoencoders — Compression &amp; Denoising</h3>
+        <div class="project-meta">Python · TensorFlow/Keras</div>
+        <p>Built a dense autoencoder compressing 28×28 images through a 64-unit bottleneck, plus a convolutional denoising autoencoder trained on noisy-in/clean-out pairs to recover clean images.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Autoencoders</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="ml perception">
+      <div class="project-thumb">
+        <img src="images/vae_thumb.jpg" alt="Variational Autoencoder" onerror="this.outerHTML='<span>🔢</span>'">
+        <img class="thumb-gif" src="images/vae_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>Variational Autoencoder — Digit Generation</h3>
+        <div class="project-meta">Python · TensorFlow/Keras</div>
+        <p>Implemented a convolutional VAE from scratch — encoder/decoder, reparameterization trick, ELBO loss — on MNIST, generating new handwritten digits by sampling from a random latent distribution.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">VAE</span><span class="tag">Generative</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="ml perception">
+      <div class="project-thumb">
+        <img src="images/style_transfer_thumb.jpg" alt="Real-Time Neural Style Transfer" onerror="this.outerHTML='<span>🎨</span>'">
+        <img class="thumb-gif" src="images/style_transfer_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>Real-Time Neural Style Transfer</h3>
+        <div class="project-meta">Python · TensorFlow</div>
+        <p>Built a live webcam style-transfer pipeline with a fast feed-forward pretrained network, loading the SavedModel directly to work around a broken TensorFlow Hub dependency.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">Style Transfer</span><span class="tag">Real-Time</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 </div>
