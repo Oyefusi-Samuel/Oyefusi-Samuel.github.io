@@ -602,7 +602,7 @@
         <img class="thumb-gif" src="images/mobilenet_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
       </div>
       <div class="project-body">
-        <h3>Transfer Learning — MobileNetV2 (Cats vs. Dogs)</h3>
+        <h3>Transfer Learning — MobileNetV2 </h3>
         <div class="project-meta">Python · TensorFlow/Keras</div>
         <p>Fine-tuned a frozen, ImageNet-pretrained MobileNetV2 via feature extraction then partial unfreezing — reached ~97–98% validation accuracy.</p>
         <div class="project-footer">
@@ -628,22 +628,7 @@
       </div>
     </div>
 
-    <div class="project-card reveal" data-tags="ml perception">
-      <div class="project-thumb">
-        <img src="images/autoencoder_thumb.jpg" alt="Autoencoders" onerror="this.outerHTML='<span>🗜️</span>'">
-        <img class="thumb-gif" src="images/autoencoder_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
-      </div>
-      <div class="project-body">
-        <h3>Autoencoders — Compression &amp; Denoising</h3>
-        <div class="project-meta">Python · TensorFlow/Keras</div>
-        <p>Built a dense autoencoder compressing 28×28 images through a 64-unit bottleneck, plus a convolutional denoising autoencoder trained on noisy-in/clean-out pairs to recover clean images.</p>
-        <div class="project-footer">
-          <div class="tags"><span class="tag">Autoencoders</span></div>
-          <a href="#" class="project-link">code →</a>
-        </div>
-      </div>
-    </div>
-
+    
     <div class="project-card reveal" data-tags="ml perception">
       <div class="project-thumb">
         <img src="images/vae_thumb.jpg" alt="Variational Autoencoder" onerror="this.outerHTML='<span>🔢</span>'">
@@ -671,6 +656,38 @@
         <p>Built a live webcam style-transfer pipeline with a fast feed-forward pretrained network, loading the SavedModel directly to work around a broken TensorFlow Hub dependency.</p>
         <div class="project-footer">
           <div class="tags"><span class="tag">Style Transfer</span><span class="tag">Real-Time</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="ml perception">
+      <div class="project-thumb">
+        <img src="images/dcgan_thumb.jpg" alt="DCGAN — Synthetic Fashion Items" onerror="this.outerHTML='<span>👗</span>'">
+        <img class="thumb-gif" src="images/dcgan_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>DCGAN — Synthetic Fashion Item Generation</h3>
+        <div class="project-meta">Python · TensorFlow/Keras</div>
+        <p>Built a Deep Convolutional GAN from scratch — transposed-conv generator and strided-conv discriminator trained adversarially on Fashion-MNIST — to synthesize realistic fake clothing images from random noise.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">GAN</span><span class="tag">Generative</span></div>
+          <a href="#" class="project-link">code →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-tags="ml perception">
+      <div class="project-thumb">
+        <img src="images/nerf_thumb.jpg" alt="NeRF — Bulldozer 3D Scene Synthesis" onerror="this.outerHTML='<span>🚜</span>'">
+        <img class="thumb-gif" src="images/nerf_demo.gif" alt="" aria-hidden="true" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="project-body">
+        <h3>NeRF — 3D Scene Synthesis from Multi-View Images</h3>
+        <div class="project-meta">Python · PyTorch</div>
+        <p>Trained a Neural Radiance Field on multi-view photos of a toy bulldozer, learning a volumetric scene representation via differentiable ray marching to render novel synthetic viewpoints of the 3D scene.</p>
+        <div class="project-footer">
+          <div class="tags"><span class="tag">NeRF</span><span class="tag">3D Reconstruction</span></div>
           <a href="#" class="project-link">code →</a>
         </div>
       </div>
