@@ -92,6 +92,7 @@ nav ul a:hover, nav ul a.active {
 .hero-photo {
   width: 300px; height: 390px; border-radius: 12px;
   object-fit: cover;
+  object-position: center 12%;
   border: 1px solid var(--border);
   flex-shrink: 0;
 }
